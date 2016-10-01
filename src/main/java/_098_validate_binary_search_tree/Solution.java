@@ -11,6 +11,7 @@ public class Solution {
 
     private boolean dfs(long gt, TreeNode node, long lt){
         if(node == null) return true;
+
         return node.val > gt && node.val < lt &&  dfs(gt, node.left, node.val) && dfs(node.val, node.right, lt);
     }
 }

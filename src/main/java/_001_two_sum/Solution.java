@@ -15,6 +15,7 @@ public class Solution {
             if(j != null) return new int[] {j, i};
             map.put(nums[i], i);
         }
+
         throw new IllegalArgumentException("No solution can be found");
     }
 }
