@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3bda2095-9488-48c8-9299-54b1d1d97a1b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode.iws" afterPath="$PROJECT_DIR$/leetcode.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_001_two_sum/README.md" afterPath="$PROJECT_DIR$/src/main/java/_001_two_sum/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_001_two_sum/Tests.java" afterPath="$PROJECT_DIR$/src/main/java/_001_two_sum/Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md" afterPath="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_224_basic_calculator/README.md" afterPath="$PROJECT_DIR$/src/main/java/_224_basic_calculator/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_344_reverse_string/README.md" afterPath="$PROJECT_DIR$/src/main/java/_344_reverse_string/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_344_reverse_string/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/_344_reverse_string/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_344_reverse_string/Tests.java" afterPath="$PROJECT_DIR$/src/main/java/_344_reverse_string/Tests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md" afterPath="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_344_reverse_string/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -75,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,16 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_001_two_sum/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -179,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_001_two_sum/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/Solution.java" />
@@ -192,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/_344_reverse_string/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_224_basic_calculator/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md" />
       </list>
     </option>
   </component>
@@ -366,32 +360,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_344_reverse_string" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_224_basic_calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -883,7 +851,7 @@
       <workItem from="1466239586716" duration="1214000" />
       <workItem from="1466249492010" duration="13000" />
       <workItem from="1475211447315" duration="6122000" />
-      <workItem from="1475243585257" duration="7892000" />
+      <workItem from="1475243585257" duration="8079000" />
     </task>
     <servers />
   </component>
@@ -920,7 +888,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37531000" />
+    <option name="totallyTimeSpent" value="37718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -932,8 +900,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1180,14 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_007_reverse_integer/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1278,6 +1238,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_224_basic_calculator/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1290,14 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
