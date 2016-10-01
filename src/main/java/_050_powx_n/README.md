@@ -1,3 +1,9 @@
+# Problem
+
+Implement pow(x, n).
+
+# Analysis
+
 这题我原来是直接绝对值，先算正指数，然后再1/pow，其实没必要，而且有问题
 
 `Math.abs(Integer.MIN_VALUE)` 这个你猜结果是什么？结果还是负数，而且就是`Integer.MIN_VALUE`.
