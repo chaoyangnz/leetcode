@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bda2095-9488-48c8-9299-54b1d1d97a1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode.iws" afterPath="$PROJECT_DIR$/leetcode.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_050_powx_n/README.md" afterPath="$PROJECT_DIR$/src/main/java/_050_powx_n/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="155">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -164,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/_006_ZigZag_Conversion/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_006_ZigZag_Conversion/Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/Tests.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/Tests.java" />
@@ -182,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/_002_add_two_numbers/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_098_validate_binary_search_tree/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java" />
       </list>
     </option>
   </component>
@@ -873,7 +872,7 @@
       <workItem from="1466239586716" duration="1214000" />
       <workItem from="1466249492010" duration="13000" />
       <workItem from="1475211447315" duration="6122000" />
-      <workItem from="1475243585257" duration="8209000" />
+      <workItem from="1475243585257" duration="8268000" />
     </task>
     <servers />
   </component>
@@ -910,7 +909,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37848000" />
+    <option name="totallyTimeSpent" value="37907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -1268,14 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_050_powx_n/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_050_powx_n/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1284,10 +1275,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_050_powx_n/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="155">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
           <folding />
         </state>
       </provider>
