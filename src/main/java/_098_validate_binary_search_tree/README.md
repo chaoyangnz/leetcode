@@ -1,0 +1,1 @@
+这题很重要的一点是将`int`提升为`long`, 因为要表示open range, `Integer.MAX_VALUE+1`和`Integer.MIN_VALUE-1`都会超出`int`的取值范围。
