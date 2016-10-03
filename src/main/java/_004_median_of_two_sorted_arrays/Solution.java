@@ -44,57 +44,6 @@ public class Solution {
         else
             return nums1[i1+pa-1];
     }
-//    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-//        if(nums1.length == 0) return median(nums2, 0, nums2.length-1);
-//        if(nums2.length == 0) return median(nums1, 0, nums1.length-1);
-//        int i1 = 0, j1 = nums1.length-1;
-//        int i2 = 0, j2 = nums2.length-1;
-//
-//        while (i1 < j1 && i2 < j2) {
-//            double median1 = median(nums1, i1, j1);
-//            double median2 = median(nums2, i2, j2);
-//
-//            if(median1 == median2) return median1;
-//
-//            int step = Math.min(half(i1, j1), half(i2, j2));
-//            if(median1 < median2) {
-//                i1 += step;
-//                j2 -= step;
-//            } else {
-//                j1 -= step;
-//                i2 += step;
-//            }
-//        }
-//
-//        return i1 == j1 ? remaining(nums2, i2, j2, nums1[i1]) : remaining(nums1, i1, j1, nums2[i2]);
-//    }
-//
-//    private int half(int i, int j) {
-//        boolean odd = (j+i) % 2 == 0;
-//        return odd ? (j-i)/2 : (j-i)/2+1;
-//    }
-//
-//    private double median(int[] nums, int i, int j) {
-//        boolean odd = (j+i) % 2 == 0;
-//        return odd ? nums[(j+i)/2] : (nums[(j+i)/2]+nums[(j+i)/2+1])/2.0;
-//    }
-//
-//    private double remaining(int[] nums, int i, int j, int num) {
-//        int len = j-i+2;
-//        int[] arr = new int[len];
-//        System.arraycopy(nums, i, arr, 0, len-1);
-//        arr[len-1] = num;
-//        for(int k=len-1; k > 0; k--) {
-//            if(arr[k] < arr[k-1]) {
-//                int temp = arr[k];
-//                arr[k] = arr[k-1];
-//                arr[k-1] = temp;
-//            } else {
-//                break;
-//            }
-//        }
-//        return len%2 > 0 ? arr[(len-1)/2] : (arr[(len-1)/2]+arr[(len-1)/2+1])/2.0;
-//    }
 
     @Test
     public void test1() {
