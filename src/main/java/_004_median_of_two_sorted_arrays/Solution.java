@@ -1,8 +1,6 @@
 
 package _004_median_of_two_sorted_arrays;
 
-import org.junit.Test;
-
 /**
  * https://leetcode.com/problems/median-of-two-sorted-arrays
  */
@@ -43,29 +41,5 @@ public class Solution {
             return findKth(nums1, i1, j1, nums2, i2+pb, j2, k - pb);
         else
             return nums1[i1+pa-1];
-    }
-
-    @Test
-    public void test1() {
-        int[] nums1 = {2,5,7,9,12};
-        int[] nums2 = {8,10,14,18,22,24,28};
-        double median = findMedianSortedArrays(nums1, nums2);
-        System.out.println(median);
-    }
-
-    @Test
-    public void test2() {
-        int[] nums1 = {2,5,7,9,12};
-        int[] nums2 = {3,4,6,10,11,16};
-        double median = findMedianSortedArrays(nums1, nums2);
-        System.out.println(median);
-    }
-
-    @Test
-    public void test3() {
-        int[] nums1 = {1,2};
-        int[] nums2 = {3,4};
-        double median = findMedianSortedArrays(nums1, nums2);
-        System.out.println(median);
     }
 }
