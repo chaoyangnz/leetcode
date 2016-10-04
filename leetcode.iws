@@ -4,7 +4,6 @@
     <list default="true" id="3bda2095-9488-48c8-9299-54b1d1d97a1b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode.iws" afterPath="$PROJECT_DIR$/leetcode.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java" afterPath="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Tests.java" afterPath="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Tests.java" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="239">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -60,8 +59,8 @@
       <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_050_powx_n/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java" />
       </list>
     </option>
   </component>
@@ -423,7 +422,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Solution">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration default="false" name="Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -438,32 +437,6 @@
       <option name="MAIN_CLASS_NAME" value="_004_median_of_two_sorted_arrays.Solution" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="_004_median_of_two_sorted_arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="leetcode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="_004_median_of_two_sorted_arrays" />
-      <option name="MAIN_CLASS_NAME" value="_004_median_of_two_sorted_arrays.Solution" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -542,6 +515,32 @@
       <option name="MAIN_CLASS_NAME" value="_004_median_of_two_sorted_arrays.Solution" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="_004_median_of_two_sorted_arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="leetcode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="_004_median_of_two_sorted_arrays" />
+      <option name="MAIN_CLASS_NAME" value="_004_median_of_two_sorted_arrays.Tests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -707,18 +706,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Solution" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Solution.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Solution.test2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Solution.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Solution.test3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Solution.test2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Solution.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Solution.test3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Solution" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Solution.test3" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Solution.test1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Solution.test2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Solution.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Solution" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Solution.test3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Solution.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Solution.test2" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -758,7 +757,7 @@
       <workItem from="1466249492010" duration="13000" />
       <workItem from="1475211447315" duration="6122000" />
       <workItem from="1475243585257" duration="8361000" />
-      <workItem from="1475293173389" duration="15346000" />
+      <workItem from="1475293173389" duration="15931000" />
     </task>
     <servers />
   </component>
@@ -795,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53346000" />
+    <option name="totallyTimeSpent" value="53931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
@@ -1066,7 +1065,7 @@
         <state relative-caret-position="399">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1170,16 +1169,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="239">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_004_median_of_two_sorted_arrays/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
