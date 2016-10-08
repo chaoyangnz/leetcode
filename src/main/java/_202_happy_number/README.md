@@ -19,7 +19,7 @@ Example: 19 is a happy number
 - 1<sup>2</sup> + 7<sup>2</sup> = 50
 - 5<sup>2</sup> + 0<sup>2</sup> = 25
 - 2<sup>2</sup> + 5<sup>2</sup> = 29
-- 2<sup>2</sup> + 9<sup>2</sup> = 85
+- 2<sup>2</sup> + 9<sup>2</sup> = 85  <----
 - 8<sup>2</sup> + 5<sup>2</sup> = 89
 - 8<sup>2</sup> + 9<sup>2</sup> = 145
 - 1<sup>2</sup> + 4<sup>2</sup> + 5<sup>2</sup> = 42
@@ -27,7 +27,7 @@ Example: 19 is a happy number
 - 2<sup>2</sup> + 0<sup>2</sup> = 4
 - 4<sup>2</sup> = 16
 - 1<sup>2</sup> + 6<sup>2</sup> = 37
-- 3<sup>2</sup> + 7<sup>2</sup> = 58
+- 3<sup>2</sup> + 7<sup>2</sup> = 58  <----
 
 到此，发现了吗？`58`和先前的`85`就属于重复了。
 
