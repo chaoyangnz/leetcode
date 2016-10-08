@@ -8,7 +8,11 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
+		for(int i = 0; i < Integer.MAX_VALUE; i++) {
+			if(solution.isPowerOfTwo(i)) {
+				System.out.println(i);
+			}
+		}
 	}
 	
 }
