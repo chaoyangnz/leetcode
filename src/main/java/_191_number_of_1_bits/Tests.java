@@ -8,7 +8,10 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
-	}
+		int n =  Integer.MIN_VALUE;
+		System.out.println(solution.hammingWeight(n));
+        System.out.println(1 << 31);
+        System.out.println(n & n);
+    }
 	
 }
