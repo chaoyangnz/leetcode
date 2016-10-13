@@ -7,7 +7,7 @@ package _189_rotate_array;
 public class Solution {
     public void rotate(int[] nums, int k) {
         final int n = nums.length;
-        if(k > n) k = k%n;
+        if(k > n) k %= n;
         reverse(nums, 0, n-1-k);
         reverse(nums, n-k, n-1);
         reverse(nums, 0, n-1);
