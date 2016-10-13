@@ -15,6 +15,6 @@ Related problem: Reverse Words in a String II
 
 # Analysis
 
-(A<sup>t</sup>B<sup>t</sup>)<sup>t</sup> = BA
+(A<sup>^</sup>B<sup>^</sup>)<sup>^</sup> = BA
 
 通过三遍reverse，就可以得到最后的效果
