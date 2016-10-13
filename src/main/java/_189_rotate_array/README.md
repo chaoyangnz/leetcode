@@ -1,0 +1,20 @@
+# Problem
+
+Rotate an array of n elements to the right by k steps.
+
+For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+
+Note:
+Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
+
+[show hint]
+
+Hint:
+Could you do it in-place with O(1) extra space?
+Related problem: Reverse Words in a String II
+
+# Analysis
+
+(A<sup>t</sup>B<sup>t</sup>)<sup>t</sup> = BA
+
+通过三遍reverse，就可以得到最后的效果
