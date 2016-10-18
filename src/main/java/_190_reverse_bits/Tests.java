@@ -8,7 +8,9 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
+		int n = 43261596;
+		int num = solution.reverseBits(n);
+		System.out.println(num);
 	}
 	
 }
