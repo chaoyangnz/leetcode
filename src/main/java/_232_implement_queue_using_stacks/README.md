@@ -22,5 +22,5 @@ Notes:
 - 当push一个数到queue时，我们push到第一个stack，因为此时第二个stack可能有数，我们需要先把第二个stack的数全部移到第一个stack
 - 当pop或peek一个数时，我们从第二个stackpop，因此此时第一个stack可能有数，我们需要先把第一个stack的数全部移到第二个stack
 
-用queue实现stack。因为queue可以两端操作，因此我们只需要一个queue就可以实现stack。
+用queue实现stack, 参见#225。因为queue可以两端操作，因此我们只需要一个queue就可以实现stack。
 参考：http://richyang.me/2016/01/18/implement-stack-with-queue

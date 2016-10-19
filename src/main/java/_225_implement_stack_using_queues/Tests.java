@@ -8,7 +8,14 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
+		MyStack stack = new MyStack();
+		stack.push(1);
+		stack.pop();
+		stack.push(2);
+		stack.push(3);
+		stack.push(2);
+		stack.pop();
+		int a = stack.top();
 	}
 	
 }
