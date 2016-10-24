@@ -11,35 +11,40 @@ public class Solution {
 }
 
 class MyQueue {
-    private Stack<Integer> major = new Stack<Integer>();
-    private Stack<Integer> minor = new Stack<Integer>();
+    private Stack<Integer> backHalf = new Stack<Integer>();
+    private Stack<Integer> frontHalf = new Stack<Integer>();
 
     // Push element x to the back of queue.
     public void push(int x) {
-        while (!minor.empty()) {
-            major.push(minor.pop());
-        }
-        major.push(x);
+        backHalf.push(x);
     }
 
     // Removes the element from in front of queue.
+    // if front is empty, move back half to front, then pop
     public void pop() {
-        while (!major.empty()) {
-            minor.push(major.pop());
+        if(!frontHalf.empty()) {
+            frontHalf.pop();
+            return;
         }
-        minor.pop();
+        while (!backHalf.empty()) {
+            frontHalf.push(backHalf.pop());
+        }
+        frontHalf.pop();
     }
 
     // Get the front element.
     public int peek() {
-        while (!major.empty()) {
-            minor.push(major.pop());
+        if(!frontHalf.empty()) {
+            return frontHalf.peek();
         }
-        return minor.peek();
+        while (!backHalf.empty()) {
+            frontHalf.push(backHalf.pop());
+        }
+        return frontHalf.peek();
     }
 
     // Return whether the queue is empty.
     public boolean empty() {
-        return major.empty() && minor.empty();
+        return backHalf.empty() && frontHalf.empty();
     }
 }
