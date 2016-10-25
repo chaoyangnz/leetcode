@@ -28,7 +28,6 @@ public class Solution {
         }
         return list;
     }
-
 }
 
 class Pair {

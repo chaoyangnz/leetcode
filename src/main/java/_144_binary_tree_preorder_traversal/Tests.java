@@ -26,11 +26,11 @@ public class Tests {
 		List<Integer> list = solution.preorderTraversal(root);
 		System.out.println(list);
 
-		list = solution.inorderTraversal(root);
-		System.out.println(list);
-
-		list = solution.postorderTraversal(root);
-		System.out.println(list);
+//		list = solution.inorderTraversal(root);
+//		System.out.println(list);
+//
+//		list = solution.postorderTraversal(root);
+//		System.out.println(list);
 	}
 	
 }
