@@ -22,3 +22,5 @@ Note: Recursive solution is trivial, could you do it iteratively?
 此方法写法虽然增加了额外的空间，但是写法统一。非常简单。
 
 参考：http://zisong.me/post/suan-fa/geng-jian-dan-de-bian-li-er-cha-shu-de-fang-fa
+
+参见：145, 94

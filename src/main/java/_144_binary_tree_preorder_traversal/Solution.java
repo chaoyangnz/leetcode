@@ -15,33 +15,35 @@ public class Solution {
         Stack<Pair> stack = new Stack<Pair>();
         stack.push(new Pair(root, false));
         while (!stack.empty()) {
-            Pair top = stack.pop();
-            if(top.node == null) continue;
-            if(top.visited) {
-                list.add(top.node.val);
+            Pair current = stack.pop();
+            if(current.node == null) continue;
+            if(current.visited) {
+                list.add(current.node.val);
             } else {
-                stack.push(new Pair(top.node.right, false));
-                stack.push(new Pair(top.node.left, false));
-                stack.push(new Pair(top.node, true));
+                // other traversal: change this order
+                stack.push(new Pair(current.node.right, false));
+                stack.push(new Pair(current.node.left, false));
+                stack.push(new Pair(current.node, true));
             }
         }
         return list;
     }
 
+    /*
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
 
         Stack<Pair> stack = new Stack<Pair>();
         stack.push(new Pair(root, false));
         while (!stack.empty()) {
-            Pair top = stack.pop();
-            if(top.node == null) continue;
-            if(top.visited) {
-                list.add(top.node.val);
+            Pair current = stack.pop();
+            if(current.node == null) continue;
+            if(current.visited) {
+                list.add(current.node.val);
             } else {
-                stack.push(new Pair(top.node.right, false));
-                stack.push(new Pair(top.node, true));
-                stack.push(new Pair(top.node.left, false));
+                stack.push(new Pair(current.node.right, false));
+                stack.push(new Pair(current.node, true));
+                stack.push(new Pair(current.node.left, false));
             }
         }
         return list;
@@ -53,18 +55,20 @@ public class Solution {
         Stack<Pair> stack = new Stack<Pair>();
         stack.push(new Pair(root, false));
         while (!stack.empty()) {
-            Pair top = stack.pop();
-            if(top.node == null) continue;
-            if(top.visited) {
-                list.add(top.node.val);
+            Pair current = stack.pop();
+            if(current.node == null) continue;
+            if(current.visited) {
+                list.add(current.node.val);
             } else {
-                stack.push(new Pair(top.node, true));
-                stack.push(new Pair(top.node.right, false));
-                stack.push(new Pair(top.node.left, false));
+                // here!!
+                stack.push(new Pair(current.node, true));
+                stack.push(new Pair(current.node.right, false));
+                stack.push(new Pair(current.node.left, false));
             }
         }
         return list;
     }
+    */
 }
 
 class Pair {
