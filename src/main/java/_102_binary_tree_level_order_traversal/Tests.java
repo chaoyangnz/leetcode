@@ -27,6 +27,11 @@ public class Tests {
 		System.out.println(solution.levelOrder(node3));
 	}
 
+//	   			1
+//			   / \
+//			  2   3
+//			 /     \
+//			4       5
 	@Test
 	public void test2() {
 		TreeNode node1 = new TreeNode(1);

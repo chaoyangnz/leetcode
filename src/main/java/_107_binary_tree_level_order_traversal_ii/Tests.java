@@ -6,7 +6,7 @@ import org.junit.Test;
 public class Tests {
 	private Solution solution = new Solution();
 
-	//	   			3
+//	   			3
 //			   / \
 //			   9  20
 //			     /  \
@@ -27,6 +27,11 @@ public class Tests {
 		System.out.println(solution.levelOrderBottom(node3));
 	}
 
+//	   			1
+//			   / \
+//			  2   3
+//			 /     \
+//			4       5
 	@Test
 	public void test2() {
 		TreeNode node1 = new TreeNode(1);
