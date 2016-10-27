@@ -31,7 +31,7 @@ public class Solution {
                 }
             }
             while (!levelNodes.isEmpty()) {
-                TreeNode node = levelNodes.pollFirst();
+                TreeNode node = levelNodes.poll();
                 if(node == null) continue;
 
                 list.add(node.val);
