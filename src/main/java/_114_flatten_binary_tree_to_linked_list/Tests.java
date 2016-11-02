@@ -1,6 +1,7 @@
 
 package _114_flatten_binary_tree_to_linked_list;
 
+import _000_util.TreeNode;
 import org.junit.Assert;
 import org.junit.Test;
 

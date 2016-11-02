@@ -1,6 +1,8 @@
 
 package _234_palindrome_linked_list;
 
+import _000_util.ListNode;
+
 /**
  * https://leetcode.com/problems/palindrome-linked-list
  */
@@ -35,11 +37,4 @@ public class Solution {
         }
         return newHead;
     }
-}
-
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }

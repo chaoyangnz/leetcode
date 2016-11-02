@@ -1,6 +1,7 @@
 
 package _098_validate_binary_search_tree;
 
+import _000_util.TreeNode;
 import org.junit.Test;
 
 public class Tests {

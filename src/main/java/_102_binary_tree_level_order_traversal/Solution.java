@@ -1,10 +1,9 @@
 
 package _102_binary_tree_level_order_traversal;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import _000_util.TreeNode;
+
+import java.util.*;
 
 /**
  * https://leetcode.com/problems/binary-tree-level-order-traversal
@@ -12,34 +11,30 @@ import java.util.Stack;
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
 
-        while (!stack.empty()) {
-            List<Integer> list = new ArrayList<>();
-            Stack<TreeNode> levelNodes = new Stack<>();
-            // pop all element to another stack
-            while (!stack.empty()) {
-                levelNodes.push(stack.pop());
+        List<Integer> levelVals = new ArrayList<>(); // for one level only
+        Queue<TreeNode> levelNodes = new LinkedList<>(); // all nodes are not null
+        Queue<TreeNode> nextLevelNodes = new LinkedList<>(); // all nodes are not null
+
+        levelNodes.offer(root);
+        while (!levelNodes.isEmpty()) {
+            TreeNode node = levelNodes.poll();
+            assert node != null;
+            if(node.left != null)  nextLevelNodes.offer(node.left);
+            if(node.right != null) nextLevelNodes.offer(node.right);
+            levelVals.add(node.val);
+
+            // transfer next level to current level
+            if(levelNodes.isEmpty()) {
+                lists.add(levelVals);
+                levelVals = new ArrayList<>();
+
+                while (!nextLevelNodes.isEmpty()) {
+                    levelNodes.offer(nextLevelNodes.poll());
+                }
             }
-            while (!levelNodes.empty()) {
-                TreeNode node = levelNodes.pop();
-                if(node == null) continue;
-                stack.push(node.left);
-                stack.push(node.right);
-                list.add(node.val);
-            }
-            if(!list.isEmpty()) lists.add(list);
         }
 
         return lists;
     }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

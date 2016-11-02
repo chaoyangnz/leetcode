@@ -1,6 +1,8 @@
 
 package _203_remove_linked_list_elements;
 
+import _000_util.ListNode;
+
 /**
  * https://leetcode.com/problems/remove-linked-list-elements
  */
@@ -25,11 +27,4 @@ public class Solution {
         }
         return head;
     }
-}
-
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }

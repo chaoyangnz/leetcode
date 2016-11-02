@@ -1,6 +1,8 @@
 
 package _102_binary_tree_level_order_traversal;
 
+import _000_util.TreeNode;
+import _000_util.TreeUtil;
 import org.junit.Test;
 
 public class Tests {
@@ -13,18 +15,8 @@ public class Tests {
 //			    15   7
 	@Test
 	public void test1() {
-		TreeNode node3 = new TreeNode(3);
-		TreeNode node9 = new TreeNode(9);
-		TreeNode node20 = new TreeNode(20);
-		TreeNode node15 = new TreeNode(15);
-		TreeNode node7 = new TreeNode(7);
-
-		node3.left = node9;
-		node3.right = node20;
-		node20.left = node15;
-		node20.right = node7;
-
-		System.out.println(solution.levelOrder(node3));
+		Integer[] arr = {3,9,20,null,null,15,7};
+		System.out.println(solution.levelOrder(TreeUtil.buildTree(arr)));
 	}
 
 //	   			1
@@ -34,18 +26,14 @@ public class Tests {
 //			4       5
 	@Test
 	public void test2() {
-		TreeNode node1 = new TreeNode(1);
-		TreeNode node2 = new TreeNode(2);
-		TreeNode node3 = new TreeNode(3);
-		TreeNode node4 = new TreeNode(4);
-		TreeNode node5 = new TreeNode(5);
+		Integer[] arr = {1,2,3,4,null,null,5};
+		System.out.println(solution.levelOrder(TreeUtil.buildTree(arr)));
+	}
 
-		node1.left = node2;
-		node1.right = node3;
-		node2.left = node4;
-		node3.right = node5;
-
-		System.out.println(solution.levelOrder(node1));
+	@Test
+	public void test3() {
+		Integer[] arr = {1,2,3,null,4,5,6,null,null,7,8,null,null,9};
+		System.out.println(solution.levelOrder(TreeUtil.buildTree(arr)));
 	}
 	
 }

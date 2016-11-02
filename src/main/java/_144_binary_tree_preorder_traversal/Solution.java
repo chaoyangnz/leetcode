@@ -1,6 +1,9 @@
 
 package _144_binary_tree_preorder_traversal;
 
+import _000_util.TreeNode;
+import _000_util.TreeNode.Pair;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -30,7 +33,7 @@ public class Solution {
     }
 
     /*
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(_000_util.TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
 
         Stack<Pair> stack = new Stack<Pair>();
@@ -49,7 +52,7 @@ public class Solution {
         return list;
     }
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal(_000_util.TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
 
         Stack<Pair> stack = new Stack<Pair>();
@@ -69,23 +72,5 @@ public class Solution {
         return list;
     }
     */
-}
-
-class Pair {
-    TreeNode node;
-    boolean visited;
-
-    public Pair(TreeNode node, boolean visited) {
-        this.node = node;
-        this.visited = visited;
-    }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }
 

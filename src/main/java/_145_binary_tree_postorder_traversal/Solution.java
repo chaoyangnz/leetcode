@@ -1,6 +1,9 @@
 
 package _145_binary_tree_postorder_traversal;
 
+import _000_util.TreeNode;
+import _000_util.TreeNode.Pair;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -28,22 +31,4 @@ public class Solution {
         }
         return list;
     }
-}
-
-class Pair {
-    TreeNode node;
-    boolean visited;
-
-    public Pair(TreeNode node, boolean visited) {
-        this.node = node;
-        this.visited = visited;
-    }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

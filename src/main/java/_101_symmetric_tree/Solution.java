@@ -1,6 +1,8 @@
 
 package _101_symmetric_tree;
 
+import _000_util.TreeNode;
+
 import java.util.Stack;
 
 /**
@@ -43,12 +45,4 @@ public class Solution {
 
         return isSymmetric(l.left, r.right) && isSymmetric(l.right, r.left);
     }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

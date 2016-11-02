@@ -1,6 +1,7 @@
 
 package _237_delete_node_in_a_linked_list;
 
+import _000_util.ListNode;
 import org.junit.Test;
 
 public class Tests {

@@ -1,6 +1,9 @@
 
 package _114_flatten_binary_tree_to_linked_list;
 
+import _000_util.TreeNode;
+import _000_util.TreeNode.Pair;
+
 import java.util.*;
 
 /**
@@ -32,24 +35,5 @@ public class Solution {
             head = node;
         }
     }
-}
-
-class Pair {
-    TreeNode node;
-    boolean visited;
-
-    public Pair(TreeNode node, boolean visited) {
-        this.node = node;
-        this.visited = visited;
-    }
-}
-
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }
 

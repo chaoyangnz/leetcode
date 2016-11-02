@@ -1,6 +1,8 @@
 
 package _141_linked_list_cycle;
 
+import _000_util.ListNode;
+
 /**
  * https://leetcode.com/problems/linked-list-cycle
  */
@@ -15,15 +17,5 @@ public class Solution {
         } while (slow != fast);
 
         return true;
-    }
-}
-
-//Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
     }
 }

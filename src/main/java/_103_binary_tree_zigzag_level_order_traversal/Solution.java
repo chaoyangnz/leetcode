@@ -1,6 +1,8 @@
 
 package _103_binary_tree_zigzag_level_order_traversal;
 
+import _000_util.TreeNode;
+
 import java.util.*;
 
 /**
@@ -42,12 +44,4 @@ public class Solution {
 
         return lists;
     }
-}
-
-// Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

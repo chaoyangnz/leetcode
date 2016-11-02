@@ -1,6 +1,8 @@
 
 package _002_add_two_numbers;
 
+import _000_util.ListNode;
+
 /**
  * https://leetcode.com/problems/add-two-numbers
  */
@@ -30,11 +32,4 @@ public class Solution {
         if(carry != 0) tail.next = new ListNode(carry);
         return head;
     }
-}
-
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }

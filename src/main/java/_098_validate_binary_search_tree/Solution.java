@@ -1,6 +1,8 @@
 
 package _098_validate_binary_search_tree;
 
+import _000_util.TreeNode;
+
 /**
  * https://leetcode.com/problems/validate-binary-search-tree
  */
@@ -14,11 +16,4 @@ public class Solution {
 
         return node.val > gt && node.val < lt &&  dfs(gt, node.left, node.val) && dfs(node.val, node.right, lt);
     }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }
