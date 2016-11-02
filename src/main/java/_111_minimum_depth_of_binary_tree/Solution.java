@@ -15,24 +15,24 @@ public class Solution {
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
 
-        Queue<TreeNode> levelNodes = new LinkedList<>();
-        Queue<TreeNode> nextLevelNodes = new LinkedList<>();
+        Queue<TreeNode> thisLevel = new LinkedList<>();
+        Queue<TreeNode> nextLevel = new LinkedList<>();
 
-        levelNodes.offer(root);
+        thisLevel.offer(root);
         int level = 1;
-        while (!levelNodes.isEmpty()) {
-            TreeNode node = levelNodes.poll();
+        while (!thisLevel.isEmpty()) {
+            TreeNode node = thisLevel.poll();
             if(node != null) {
                 if(node.left == null && node.right == null) return level;
 
-                nextLevelNodes.offer(node.left);
-                nextLevelNodes.offer(node.right);
+                nextLevel.offer(node.left);
+                nextLevel.offer(node.right);
             }
 
-            if(levelNodes.isEmpty()) {
+            if(thisLevel.isEmpty()) {
                 level++;
-                while (!nextLevelNodes.isEmpty()) {
-                    levelNodes.offer(nextLevelNodes.poll());
+                while (!nextLevel.isEmpty()) {
+                    thisLevel.offer(nextLevel.poll());
                 }
             }
         }

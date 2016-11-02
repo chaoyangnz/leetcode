@@ -13,24 +13,24 @@ public class Solution {
         List<List<Integer>> lists = new ArrayList<>();
 
         List<Integer> levelVals = new ArrayList<>(); // for one level only
-        Queue<TreeNode> levelNodes = new LinkedList<>(); // all nodes are not null
-        Queue<TreeNode> nextLevelNodes = new LinkedList<>(); // all nodes are not null
+        Queue<TreeNode> thisLevel = new LinkedList<>(); // all nodes are not null
+        Queue<TreeNode> nextLevel = new LinkedList<>(); // all nodes are not null
 
-        levelNodes.offer(root);
-        while (!levelNodes.isEmpty()) {
-            TreeNode node = levelNodes.poll();
+        thisLevel.offer(root);
+        while (!thisLevel.isEmpty()) {
+            TreeNode node = thisLevel.poll();
             assert node != null;
-            if(node.left != null)  nextLevelNodes.offer(node.left);
-            if(node.right != null) nextLevelNodes.offer(node.right);
+            if(node.left != null)  nextLevel.offer(node.left);
+            if(node.right != null) nextLevel.offer(node.right);
             levelVals.add(node.val);
 
             // transfer next level to current level
-            if(levelNodes.isEmpty()) {
+            if(thisLevel.isEmpty()) {
                 lists.add(levelVals);
                 levelVals = new ArrayList<>();
 
-                while (!nextLevelNodes.isEmpty()) {
-                    levelNodes.offer(nextLevelNodes.poll());
+                while (!nextLevel.isEmpty()) {
+                    thisLevel.offer(nextLevel.poll());
                 }
             }
         }
