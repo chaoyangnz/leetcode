@@ -22,6 +22,8 @@ return its level order traversal as:
 
 # Analysis
 
+## 方式一
+
 这里使用两个队列:
 - 当前level节点 levelNodes
 - 下一个level的节点 nextLevelNodes
@@ -42,3 +44,9 @@ return its level order traversal as:
 <-| 7 15                     |
   +++++++++++      +++++++++++
 ```
+
+# 方式二
+
+使用一个队列，但是记录当前level
+
+每当跳到下一个level时，打印

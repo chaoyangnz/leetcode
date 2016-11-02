@@ -16,9 +16,16 @@ public class TreeNode {
     public TreeNode node;
     public boolean visited;
 
+
     public Pair(TreeNode node, boolean visited) {
       this.node = node;
       this.visited = visited;
+    }
+
+    public int level;
+    public Pair(TreeNode node, int level) {
+      this.node = node;
+      this.level = level;
     }
   }
 }
