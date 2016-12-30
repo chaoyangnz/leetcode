@@ -8,7 +8,8 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
+		String a = "10110", b = "0";
+		System.out.println(solution.addBinary(a, b));
 	}
 	
 }
