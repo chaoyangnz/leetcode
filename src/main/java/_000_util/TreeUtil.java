@@ -8,7 +8,7 @@ public class TreeUtil {
    * @param arr
    * @return
    */
-  public static TreeNode buildTree(Integer[] arr) {
+  public static TreeNode buildTree(Integer... arr) {
     final int N = arr.length;
     if (N == 0) return null;
 
