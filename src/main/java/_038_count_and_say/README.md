@@ -15,4 +15,4 @@ Note: The sequence of integers will be represented as a string.
 
 # Analysis
 
-对于每个生成的串，计数重复字符，知道出现新字符，输出。
+对于每个生成的串，计数重复字符，直到出现新字符，输出。
