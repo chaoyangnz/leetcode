@@ -1,16 +1,16 @@
-
 package _113_path_sum_ii;
 
 import _000_util.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/path-sum-ii
  */
-public class Solution {
+public class Solution1 {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> result = new ArrayList<>();
         if(root == null) return result;
@@ -19,24 +19,20 @@ public class Solution {
 
         List<Integer> path = new ArrayList<>();
         path.add(root.val);
-        Pair pair = new Pair(root, root.val, path);
+        Pair pair = new Pair(root, root.val, null);
         stack.push(pair);
 
         while (!stack.empty()) {
             Pair current = stack.pop();
             if(current.node.left == null && current.node.right == null && current.sum == sum) {
-                result.add(current.path); continue;
+                result.add(getPath(current)); continue;
             }
             if(current.node.right != null) {
-                path = new ArrayList<>(current.path);
-                path.add(current.node.right.val);
-                pair = new Pair(current.node.right, current.sum + current.node.right.val, path);
+                pair = new Pair(current.node.right, current.sum + current.node.right.val, current);
                 stack.push(pair);
             }
             if(current.node.left != null) {
-                path = new ArrayList<>(current.path);
-                path.add(current.node.left.val);
-                pair = new Pair(current.node.left, current.sum + current.node.left.val, path);
+                pair = new Pair(current.node.left, current.sum + current.node.left.val, current);
                 stack.push(pair);
             }
         }
@@ -44,18 +40,29 @@ public class Solution {
         return result;
     }
 
+    private static List<Integer> getPath(Pair leaf) {
+        List<Integer> path = new LinkedList<>();
+        Pair pair = leaf;
+        while (pair != null) {
+            path.add(0, pair.node.val);
+            pair = pair.parent;
+        }
+        return path;
+    }
+
     private static class Pair {
         TreeNode node;
         int sum;
-        List<Integer> path = new ArrayList<>();
+        Pair parent;
 
-        public Pair(TreeNode node, int sum, List<Integer> path) {
+        public Pair(TreeNode node, int sum, Pair parent) {
             this.node = node;
             this.sum = sum;
-            this.path = path;
+            this.parent = parent;
         }
     }
 }
+
 
 
 
