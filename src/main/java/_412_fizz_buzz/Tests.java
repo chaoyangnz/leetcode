@@ -1,5 +1,5 @@
 
-package _292_nim_game;
+package _412_fizz_buzz;
 
 import org.junit.Test;
 
@@ -8,8 +8,7 @@ public class Tests {
 
 	@Test
 	public void test1() {
-        boolean b = solution.canWinNim(1348820612);
-        System.out.println(b);
-    }
+
+	}
 	
 }

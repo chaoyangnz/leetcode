@@ -8,7 +8,9 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
-	}
+        System.out.println(solution.isPerfectSquare_logN(4));
+        System.out.println(Math.sqrt(Integer.MAX_VALUE));
+        System.out.println(8956*5956);
+    }
 	
 }

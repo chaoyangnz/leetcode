@@ -8,7 +8,10 @@ public class Tests {
 
 	@Test
 	public void test1() {
+	    for(int i=1; i < 100; ++i) {
+            System.out.printf("%d: %b\n", i, solution.isUgly(i));
+        }
 
-	}
+    }
 	
 }

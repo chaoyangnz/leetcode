@@ -5,6 +5,7 @@ import java.util.*;
 public class TreeUtil {
   /**
    * This way to build a tree is compatible with the leetcode Tree Node Visualizer
+   * <p>Print int the Leetcode way </p>
    * @param arr
    * @return
    */

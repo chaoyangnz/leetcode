@@ -1,7 +1,7 @@
 package _000_util;
 
 public class ListUtil {
-  public static ListNode buildLinkedList(int[] arr) {
+  public static ListNode buildLinkedList(int... arr) {
     final int N = arr.length;
     if(N == 0) return null;
 
