@@ -2,6 +2,6 @@
 
 Leetcode solutions with Java
 
-These solution is from my independent thought.
+These solutions are from my independent thought.
 
 
