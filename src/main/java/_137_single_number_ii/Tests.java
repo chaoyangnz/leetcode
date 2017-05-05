@@ -8,9 +8,12 @@ public class Tests {
 
 	@Test
 	public void test1() {
-        int[] nums = {1,2,3,1,2,3,1,2,3,100};//{-2,-2,1,1,-3,1,-3,-3,-4,-2};//{1,3,4,5,6,8,9,1,3,4,6,8,9,1,3,4,6,8,9};
-        int num = solution.singleNumber(nums);
-        System.out.println(num);
+//        int[] nums = {1,2,3,1,2,3,1,2,3,100};//{-2,-2,1,1,-3,1,-3,-3,-4,-2};//{1,3,4,5,6,8,9,1,3,4,6,8,9,1,3,4,6,8,9};
+//        int num = solution.singleNumber(nums);
+//        System.out.println(num);
+
+        int[] nums1 = {-2,-2,1,1,-3,1,-3,-3,-4,-2};
+        System.out.println(solution.singleNumber(nums1));
     }
 
     @Test

@@ -10,7 +10,7 @@ public class Solution {
         for(int i=0; i < Integer.SIZE; ++i) {
             int count = 0;
             for(int num : nums) {
-                if((num & (1 << i)) > 0) {
+                if((num & (1 << i)) != 0) {
                     count++;
                 }
             }
@@ -21,12 +21,12 @@ public class Solution {
         return result;
     }
 
-    public int strangeNumber(int[] nums, int n, int m) {
+    private int singleNumber(int[] nums, int n, int m) {
         int result = 0;
         for(int i=0; i < Integer.SIZE; ++i) {
             int count = 0;
             for(int num : nums) {
-                if((num & (1 << i)) > 0) {
+                if((num & (1 << i)) != 0) {
                     count++;
                 }
             }
