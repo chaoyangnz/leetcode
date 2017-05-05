@@ -21,7 +21,7 @@ public class Solution {
         return result;
     }
 
-    private int singleNumber(int[] nums, int n, int m) {
+    int singleNumber(int[] nums, int n, int m) {
         int result = 0;
         for(int i=0; i < Integer.SIZE; ++i) {
             int count = 0;

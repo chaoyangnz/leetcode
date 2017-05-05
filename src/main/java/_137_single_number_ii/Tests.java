@@ -19,7 +19,7 @@ public class Tests {
     @Test
     public void test2() {
         int[] nums = {1,2,3,1,2,3,1,2,3,100, 100, 100, 100, 100};//{-2,-2,1,1,-3,1,-3,-3,-4,-2};//{1,3,4,5,6,8,9,1,3,4,6,8,9,1,3,4,6,8,9};
-        int num = solution.strangeNumber(nums, 3, 5);
+        int num = solution.singleNumber(nums, 3, 5);
         System.out.println(num);
     }
 
