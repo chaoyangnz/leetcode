@@ -8,7 +8,13 @@ public class Tests {
 
 	@Test
 	public void test1() {
+        for (int n = 1; n < 20; ++n) {
+            System.out.println(solution.integerReplacement(n));
 
-	}
+            System.out.println(solution.integerReplacement1(n));
+            System.out.println("------------");
+        }
+
+    }
 	
 }
