@@ -8,7 +8,8 @@ public class Tests {
 
 	@Test
 	public void test1() {
-
-	}
+        int num = 16;
+        System.out.println(solution.toHex(num));
+    }
 	
 }
