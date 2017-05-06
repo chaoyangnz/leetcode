@@ -8,7 +8,7 @@ public class Tests {
 
 	@Test
 	public void test1() {
-        System.out.println(solution.findTheDifference("abcd", "abcde"));
+        System.out.println(solution.findTheDifferenceOpt("abcd", "abcde"));
     }
 	
 }

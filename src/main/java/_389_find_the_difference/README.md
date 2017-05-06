@@ -20,4 +20,6 @@ Explanation:
 
 # Solution
 
-char只不过是unsigned integral而已
+char只不过是unsigned integral而已.
+
+可以用求和，也可以求异或

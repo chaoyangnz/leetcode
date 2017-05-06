@@ -18,4 +18,17 @@ public class Solution {
 
         return (char) (st - ss);
     }
+
+    public char findTheDifferenceOpt(String s, String t) {
+        char[] cs = s.toCharArray();
+        char[] ct = t.toCharArray();
+        final int n = s.length();
+        int result = 0;
+        for(int i = 0; i < n; ++i) {
+            result ^= cs[i] ^ ct[i];
+        }
+        result += ct[n];
+
+        return (char) result;
+    }
 }
