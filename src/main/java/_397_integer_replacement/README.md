@@ -17,7 +17,9 @@ Output:
 Explanation:
 8 -> 4 -> 2 -> 1
 ```
+
 Example 2:
+
 ```
 Input:
 7
@@ -30,6 +32,7 @@ Explanation:
 or
 7 -> 6 -> 3 -> 2 -> 1
 ```
+
 # Solution
 
 因为这题明显的递推关系
@@ -38,6 +41,7 @@ or
 f(n) =
        \-- MIN(f((n-1)/2), f((n+1)/2)) + 2, n is odd
 ```
+
 很容易想到用记忆化搜索，但是可能exceed memory limit。用递归又容易stack overflow
 
 想想其他方法, 因为相除一般来说比其他方式下降要快，我们总是选择相除（当数比较小的时候，额外考虑）
