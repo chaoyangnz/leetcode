@@ -33,5 +33,5 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 [](intersection_two_linked_list.png)
 
 动态图：
-[](intersection_two_linked_list1.png)
-[](intersection_two_linked_list2.png)
+![](intersection_two_linked_list1.png)
+![](intersection_two_linked_list2.png)
