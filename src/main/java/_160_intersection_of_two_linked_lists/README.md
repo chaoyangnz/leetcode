@@ -26,8 +26,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 
 更优的实现：
 
-同时遍历，短的那个链表到达了尾部之后，调整指针，让它指向长链表的头部，继续，直到长链表遍历完。
-最后，那第一个指针停的地方就是长链表应该开始的地方
+同时遍历，短的那个链表到达了尾部之后，调整指针，让它指向长链表的头部，继续，直到长链表遍历完。长链表指针指向短链表头部，继续，直到找到相同的node
 
 示意图：
 ![](intersection_two_linked_list.png)
