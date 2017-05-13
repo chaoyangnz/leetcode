@@ -30,7 +30,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
 最后，那第一个指针停的地方就是长链表应该开始的地方
 
 示意图：
-[](intersection_two_linked_list.png)
+![](intersection_two_linked_list.png)
 
 动态图：
 ![](intersection_two_linked_list1.png)
