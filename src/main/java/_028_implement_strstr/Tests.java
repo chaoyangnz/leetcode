@@ -8,7 +8,9 @@ public class Tests {
 
 	@Test
 	public void test1() {
+        System.out.println(solution.strStr("dfdfdogsdd", "dog1"));
 
-	}
+        System.out.println(solution.strStr("", ""));
+    }
 	
 }

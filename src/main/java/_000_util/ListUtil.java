@@ -29,4 +29,16 @@ public class ListUtil {
     }
     System.out.println(sb);
   }
+
+  public static ListNode get(ListNode head, int i) {
+      int j = 0;
+      ListNode node = head;
+      while (node != null) {
+          if(j == i) return node;
+          j++;
+          node = node.next;
+      }
+
+      return null;
+  }
 }
