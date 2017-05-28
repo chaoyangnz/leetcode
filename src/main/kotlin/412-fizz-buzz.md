@@ -9,8 +9,27 @@ for the multiples of five output “Buzz”. For numbers which are multiples of
 both three and five output “FizzBuzz”.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    n = 15,
+    Return:
+    [
+        "1",
+        "2",
+        "Fizz",
+        "4",
+        "Buzz",
+        "Fizz",
+        "7",
+        "8",
+        "Fizz",
+        "Buzz",
+        "11",
+        "Fizz",
+        "13",
+        "14",
+        "FizzBuzz"
+    ]
+    ```
 
 
 

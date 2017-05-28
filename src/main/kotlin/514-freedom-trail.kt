@@ -15,11 +15,31 @@ import org.junit.*
  * You need to find the **minimum** number of steps in order to spell all the
  * characters in the keyword.
  * 
+ * **ring****key****key**  
+ * **key[i]**
+ * 
+ *   1. You can rotate the **ring** clockwise or anticlockwise **one place**, which counts as 1 step. The final purpose of the rotation is to align one of the string **ring's** characters at the 12:00 direction, where this character must equal to the character **key[i]**. 
+ *   2. If the character **key[i]** has been aligned at the 12:00 direction, you need to press the center button to spell, which also counts as 1 step. After the pressing, you could begin to spell the next character in the key (next stage), otherwise, you've finished all the spelling.
+ * 
  * **Example:**  
+ * 
+ * ![](https://leetcode.com/static/images/problemset/ring.jpg)
+ * 
+ *     ```
+ *     **Input:** ring = "godding", key = "gd"
+ *     **Output:** 4
+ *     **Explanation:**  
+ *      For the first key character 'g', since it is already in place, we just need 1 step to spell this character.   
+ *      For the second key character 'd', we need to rotate the ring "godding" anticlockwise by two steps to make it become "ddinggo".  
+ *      Also, we need 1 more step for spelling.  
+ *      So the final output is 4.
+ *     ```
  * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. Length of both ring and **key** will be in range 1 to 100.
+ *   2. There are only lowercase letters in both strings and might be some duplcate characters in both strings.
+ *   3. It's guaranteed that string **key** could always be spelled by rotating the string **ring**.
  * 
  * 
  */

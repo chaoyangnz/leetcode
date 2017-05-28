@@ -15,7 +15,11 @@ import org.junit.*
  * 
  * For example,
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     Given s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT",
+ *     Return:
+ *     ["AAAAACCCCC", "CCCCCAAAAA"].
+ *     ```
  * 
  * 
  */

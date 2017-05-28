@@ -15,9 +15,13 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
- * **Note:** The length of the input array will not exceed 20,000. 
+ *     ```
+ *     **Input:** [1,3,2,2,5,2,3,7]
+ *     **Output:** 5
+ *     **Explanation:** The longest harmonious subsequence is [3,2,2,2,3].
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * **Note:** The length of the input array will not exceed 20,000. 
  * 
  * 
  */

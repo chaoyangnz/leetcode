@@ -16,8 +16,6 @@ Above is a 3 x 7 grid. How many possible unique paths are there?
 
 **Note:** _m_ and _n_ will be at most 100.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Unique Paths](https://leetcode.com/problems/unique-paths)

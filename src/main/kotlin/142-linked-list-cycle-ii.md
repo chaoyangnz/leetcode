@@ -9,8 +9,6 @@ cycle, return `null`.
 **Follow up**:  
 Can you solve it without using extra space?
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)

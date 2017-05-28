@@ -15,8 +15,6 @@ Here is an example:
 
 Return `3`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)

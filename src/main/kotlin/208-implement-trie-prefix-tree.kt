@@ -11,8 +11,6 @@ import org.junit.*
  * **Note:**  
  * You may assume that all inputs are consist of lowercase letters `a-z`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun implementTriePrefixTree() {

@@ -10,7 +10,8 @@ import org.junit.*
  * 
  * Recover the tree without changing its structure.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * **Note:**  
+ * _n_
  * 
  * 
  */

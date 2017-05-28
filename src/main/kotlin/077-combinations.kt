@@ -13,7 +13,16 @@ import org.junit.*
  * 
  * If _n_ = 4 and _k_ = 2, a solution is:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     [
+ *       [2,4],
+ *       [3,4],
+ *       [2,3],
+ *       [1,2],
+ *       [1,3],
+ *       [1,4],
+ *     ]
+ *     ```
  * 
  * 
  */

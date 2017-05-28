@@ -10,9 +10,13 @@ You may assume that the given expression is always valid.
 
 Some examples:
 
-**Note:** **Do not** use the `eval` built-in library function. 
+    ```
+    "1 + 1" = 2
+    " 2-1 + 2 " = 3
+    "(1+(4+5+2)-3)+(6+8)" = 23
+    ```
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+**Note:** **Do not** use the `eval` built-in library function. 
 
 
 

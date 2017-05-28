@@ -34,8 +34,6 @@ No such pair of words.
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)

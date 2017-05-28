@@ -17,9 +17,13 @@ import org.junit.*
  * 
  * Given the below binary tree,
  * 
- * Return `6`.
+ *     ```
+ *            1
+ *           / \
+ *          2   3
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * Return `6`.
  * 
  * 
  */

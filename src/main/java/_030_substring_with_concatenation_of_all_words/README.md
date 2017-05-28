@@ -15,8 +15,6 @@ You should return the indices: `[0,9]`.
 
 (order does not matter).
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)

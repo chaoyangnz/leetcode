@@ -18,8 +18,6 @@ import org.junit.*
  * Special thanks to [@yukuairoy ](https://leetcode.com/discuss/user/yukuairoy)
  * for adding this problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun powerOfFour() {

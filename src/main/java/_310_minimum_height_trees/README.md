@@ -20,11 +20,29 @@ together in `edges`.
 
 Given `n = 4`, `edges = [[1, 0], [1, 2], [1, 3]]`
 
+    ```
+            0
+            |
+            1
+           / \
+          2   3
+    ```
+
 return ` [1]`
 
 **Example 2:**
 
 Given `n = 6`, `edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]`
+
+    ```
+         0  1  2
+          \ | /
+            3
+            |
+            4
+            |
+            5
+    ```
 
 return ` [3, 4]`
 
@@ -41,8 +59,6 @@ path between the root and a leaf.
 **Credits:**  
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

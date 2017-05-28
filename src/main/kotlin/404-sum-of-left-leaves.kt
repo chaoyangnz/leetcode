@@ -9,8 +9,14 @@ import org.junit.*
  * Find the sum of all left leaves in a given binary tree.
  * 
  * **Example:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *         3
+ *        / \
+ *       9  20
+ *         /  \
+ *        15   7
+ *     There are two left leaves in the binary tree, with values **9** and **15** respectively. Return **24**.
+ *     ```
  * 
  * 
  */

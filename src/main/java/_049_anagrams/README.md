@@ -7,9 +7,15 @@ For example, given: `["eat", "tea", "tan", "ate", "nat", "bat"]`,
 
 Return:
 
-**Note:** All inputs will be in lower-case.
+    ```
+    [
+      ["ate", "eat","tea"],
+      ["nat","tan"],
+      ["bat"]
+    ]
+    ```
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+**Note:** All inputs will be in lower-case.
 
 
 

@@ -6,11 +6,13 @@ import org.junit.*
 /**
  * Solution
  * ---
- * _Follow up_ for "Search in Rotated Sorted Array":
+ * > _Follow up_ for "Search in Rotated Sorted Array":
  * 
  * What if _duplicates_ are allowed?
  * 
- * Would this affect the run-time complexity? How and why?
+ * >
+ * 
+ * > Would this affect the run-time complexity? How and why?
  * 
  * Suppose an array sorted in ascending order is rotated at some pivot unknown to
  * you beforehand.
@@ -20,8 +22,6 @@ import org.junit.*
  * Write a function to determine if a given target is in the array.
  * 
  * The array may contain duplicates.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

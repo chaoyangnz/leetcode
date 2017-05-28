@@ -14,9 +14,15 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** ["Hello", "Alaska", "Dad", "Peace"]
+ *     **Output:** ["Alaska", "Dad"]
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. You may use one character in the keyboard more than once.
+ *   2. You may assume the input string will only contain letters of alphabet.
  * 
  * 
  */

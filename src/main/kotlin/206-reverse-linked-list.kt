@@ -10,11 +10,6 @@ import org.junit.*
  * 
  * click to show more hints.
  * 
- * A linked list can be reversed either iteratively or recursively. Could you
- * implement both?
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reverseLinkedList() {

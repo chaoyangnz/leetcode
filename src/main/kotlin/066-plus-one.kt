@@ -15,8 +15,6 @@ import org.junit.*
  * The digits are stored such that the most significant digit is at the head of
  * the list.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun plusOne() {

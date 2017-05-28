@@ -14,10 +14,22 @@ import org.junit.*
  * < 231).
  * 
  * **Example 1:**
+ *     ```
+ *     **Input:**
+ *     3
+ *     **Output:**
+ *     3
+ *     ```
  * 
  * **Example 2:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:**
+ *     11
+ *     **Output:**
+ *     0
+ *     **Explanation:**
+ *     The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
+ *     ```
  * 
  * 
  */

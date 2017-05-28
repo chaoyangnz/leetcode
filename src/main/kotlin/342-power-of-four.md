@@ -13,8 +13,6 @@ Given num = 16, return true. Given num = 5, return false.
 Special thanks to [@yukuairoy ](https://leetcode.com/discuss/user/yukuairoy)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Power of Four](https://leetcode.com/problems/power-of-four)

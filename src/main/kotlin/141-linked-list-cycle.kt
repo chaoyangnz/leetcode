@@ -12,8 +12,6 @@ import org.junit.*
  * 
  * Can you solve it without using extra space?
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun linkedListCycle() {

@@ -26,8 +26,6 @@ import org.junit.*
  * **Note:**  
  * You may assume both **_s_** and **_t_** have the same length.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun isomorphicStrings() {

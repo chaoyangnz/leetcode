@@ -17,8 +17,6 @@ adding this problem and creating all test cases. Also thanks to
 [@ts](https://oj.leetcode.com/discuss/user/ts) for adding additional test
 cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [House Robber](https://leetcode.com/problems/house-robber)

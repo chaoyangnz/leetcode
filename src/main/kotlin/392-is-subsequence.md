@@ -32,8 +32,6 @@ how would you change your code?
 Special thanks to [@pbrother](https://leetcode.com/pbrother/) for adding this
 problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Is Subsequence](https://leetcode.com/problems/is-subsequence)

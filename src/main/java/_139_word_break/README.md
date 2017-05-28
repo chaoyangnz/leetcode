@@ -18,8 +18,6 @@ Return true because `"leetcode"` can be segmented as `"leet code"`.
 The _wordDict_ parameter had been changed to a list of strings (instead of a
 set of strings). Please reload the code definition to get the latest changes.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Word Break](https://leetcode.com/problems/word-break)

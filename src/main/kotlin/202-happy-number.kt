@@ -16,12 +16,15 @@ import org.junit.*
  * 
  * **Example: **19 is a happy number
  * 
+ *   * 12 + 92 = 82
+ *   * 82 + 22 = 68
+ *   * 62 + 82 = 100
+ *   * 12 + 02 + 02 = 1
+ * 
  * **Credits:**  
  * Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) and
  * [@ts](https://leetcode.com/discuss/user/ts) for adding this problem and
  * creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

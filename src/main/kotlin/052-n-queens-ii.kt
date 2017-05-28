@@ -13,8 +13,6 @@ import org.junit.*
  * 
  * ![](https://leetcode.com/static/images/problemset/8-queens.png)
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun nQueensIi() {

@@ -9,8 +9,15 @@ one more letter at a random position.
 Find the letter that was added in **_t_**.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    Input:
+    s = "abcd"
+    t = "abcde"
+    Output:
+    e
+    Explanation:
+    'e' is the letter that was added.
+    ```
 
 
 

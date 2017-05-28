@@ -14,11 +14,27 @@ of `p` in the string `s`.
 
 **Example 1:**  
 
+    ```
+    **Input:** "a"
+    **Output:** 1
+    **Explanation:** Only the substring "a" of string "a" is in the string s.
+    ```
+
 **Example 2:**  
+
+    ```
+    **Input:** "cac"
+    **Output:** 2
+    **Explanation:** There are two substrings "a", "c" of string "cac" in the string s.
+    ```
 
 **Example 3:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    **Input:** "zab"
+    **Output:** 6
+    **Explanation:** There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.
+    ```
 
 
 

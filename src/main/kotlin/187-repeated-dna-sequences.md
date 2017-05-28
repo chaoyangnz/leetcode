@@ -10,7 +10,11 @@ occur more than once in a DNA molecule.
 
 For example,
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    Given s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT",
+    Return:
+    ["AAAAACCCCC", "CCCCCAAAAA"].
+    ```
 
 
 

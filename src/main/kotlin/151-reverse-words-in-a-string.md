@@ -14,8 +14,6 @@ For C programmers: Try to solve it _in-place_ in _O_(1) space.
 
 click to show clarification.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)

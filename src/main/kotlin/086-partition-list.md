@@ -13,8 +13,6 @@ Given `1->4->3->2->5->2` and _x_ = 3,
 
 return `1->2->2->4->3->5`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Partition List](https://leetcode.com/problems/partition-list)

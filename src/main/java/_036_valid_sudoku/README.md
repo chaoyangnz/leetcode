@@ -16,8 +16,6 @@ A partially filled sudoku which is valid.
 A valid Sudoku board (partially filled) is not necessarily solvable. Only the
 filled cells need to be validated.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)

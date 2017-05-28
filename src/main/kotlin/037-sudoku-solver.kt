@@ -22,8 +22,6 @@ import org.junit.*
  * 
  * ...and its solution numbers marked in red.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun sudokuSolver() {

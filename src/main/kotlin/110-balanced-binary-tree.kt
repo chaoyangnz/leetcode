@@ -12,8 +12,6 @@ import org.junit.*
  * which the depth of the two subtrees of _every_ node never differ by more than
  * 1.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun balancedBinaryTree() {

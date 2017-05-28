@@ -10,11 +10,6 @@ the contiguous subarray `[4,-1,2,1]` has the largest sum = `6`.
 
 click to show more practice.
 
-If you have figured out the O(_n_) solution, try coding another solution using
-the divide and conquer approach, which is more subtle.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray)

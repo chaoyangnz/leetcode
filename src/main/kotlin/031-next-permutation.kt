@@ -23,8 +23,6 @@ import org.junit.*
  * 
  * `1,1,5` → `1,5,1`
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun nextPermutation() {

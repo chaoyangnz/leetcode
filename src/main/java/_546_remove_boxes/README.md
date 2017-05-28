@@ -13,9 +13,21 @@ Find the maximum points you can get.
 **Example 1:**  
 Input:
 
-**Note:** The number of boxes `n` would not exceed 100. 
+    ```
+    [1, 3, 2, 2, 2, 3, 4, 3, 1]
+    ```
+    ```
+    23
+    ```
+    ```
+    [1, 3, 2, 2, 2, 3, 4, 3, 1] 
+    ----> [1, 3, 3, 4, 3, 1] (3*3=9 points) 
+    ----> [1, 3, 3, 3, 1] (1*1=1 points) 
+    ----> [1, 1] (3*3=9 points) 
+    ----> [] (2*2=4 points)
+    ```
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+**Note:** The number of boxes `n` would not exceed 100. 
 
 
 

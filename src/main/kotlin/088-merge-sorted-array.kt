@@ -14,8 +14,6 @@ import org.junit.*
  * _m_ + _n_) to hold additional elements from _nums2_. The number of elements
  * initialized in _nums1_ and _nums2_ are _m_ and _n_ respectively.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun mergeSortedArray() {

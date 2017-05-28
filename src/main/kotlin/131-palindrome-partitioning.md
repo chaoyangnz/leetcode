@@ -10,7 +10,12 @@ For example, given _s_ = `"aab"`,
 
 Return
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    [
+      ["aa","b"],
+      ["a","a","b"]
+    ]
+    ```
 
 
 

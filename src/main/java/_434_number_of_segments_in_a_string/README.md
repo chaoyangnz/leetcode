@@ -7,8 +7,10 @@ contiguous sequence of non-space characters.
 Please note that the string does not contain any **non-printable** characters.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    **Input:** "Hello, my name is John"
+    **Output:** 5
+    ```
 
 
 

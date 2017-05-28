@@ -14,6 +14,13 @@ import org.junit.*
  * 
  * For example, given _n_ = 2, return `[0,1,3,2]`. Its gray code sequence is:
  * 
+ *     ```
+ *     00 - 0
+ *     01 - 1
+ *     11 - 3
+ *     10 - 2
+ *     ```
+ * 
  * **Note:**  
  * For a given _n_, a gray code sequence is not uniquely defined.
  * 
@@ -22,8 +29,6 @@ import org.junit.*
  * 
  * For now, the judge is able to judge based on one instance of gray code
  * sequence. Sorry about that.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

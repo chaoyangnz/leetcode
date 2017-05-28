@@ -14,10 +14,40 @@ import org.junit.*
  * **Example 1:**  
  * Given tree s:
  * 
+ *     ```
+ *          3
+ *         / \
+ *        4   5
+ *       / \
+ *      1   2
+ *     ```
+ *     ```
+ *        4 
+ *       / \
+ *      1   2
+ *     ```
+ * 
+ * **true**
+ * 
  * **Example 2:**  
  * Given tree s:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *          3
+ *         / \
+ *        4   5
+ *       / \
+ *      1   2
+ *         /
+ *        0
+ *     ```
+ *     ```
+ *        4
+ *       / \
+ *      1   2
+ *     ```
+ * 
+ * **false**
  * 
  * 
  */

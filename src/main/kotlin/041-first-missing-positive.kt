@@ -16,8 +16,6 @@ import org.junit.*
  * 
  * Your algorithm should run in _O_(_n_) time and uses constant space.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun firstMissingPositive() {

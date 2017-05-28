@@ -22,8 +22,6 @@ import org.junit.*
  * What if the inputs contain unicode characters? How would you adapt your
  * solution to such case?
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun validAnagram() {

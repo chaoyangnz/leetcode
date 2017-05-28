@@ -15,8 +15,6 @@ Given _m_, _n_ satisfy the following condition:
 
 1 ≤ _m_ ≤ _n_ ≤ length of list.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)

@@ -15,8 +15,12 @@ import org.junit.*
  * returned list does not count as extra space.
  * 
  * **Example:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:**
+ *     [4,3,2,7,8,2,3,1]
+ *     **Output:**
+ *     [5,6]
+ *     ```
  * 
  * 
  */

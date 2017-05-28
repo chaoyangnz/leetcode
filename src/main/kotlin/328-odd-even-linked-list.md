@@ -24,8 +24,6 @@ Special thanks to
 [@DjangoUnchained](https://leetcode.com/discuss/user/DjangoUnchained) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)

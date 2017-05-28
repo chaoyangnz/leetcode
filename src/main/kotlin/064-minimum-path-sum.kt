@@ -11,8 +11,6 @@ import org.junit.*
  * 
  * **Note:** You can only move either down or right at any point in time.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun minimumPathSum() {

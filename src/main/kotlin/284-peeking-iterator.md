@@ -6,6 +6,8 @@ design and implement a PeekingIterator that support the `peek()` operation --
 it essentially peek() at the element that will be returned by the next call to
 next().
 
+* * *
+
 Here is an example. Assume that the iterator is initialized to the beginning
 of the list: `[1, 2, 3]`.
 
@@ -22,8 +24,6 @@ You call `next()` the final time and it returns 3, the last element. Calling
 **Credits:**  
 Special thanks to [@porker2008](https://leetcode.com/discuss/user/porker2008)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

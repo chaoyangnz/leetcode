@@ -37,8 +37,6 @@ import org.junit.*
  * Special thanks to [@pbrother](https://leetcode.com/pbrother/) for adding this
  * problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun isSubsequence() {

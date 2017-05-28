@@ -14,8 +14,6 @@ import org.junit.*
  * 
  * Note: You may not slant the container and _n_ is at least 2.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun containerWithMostWater() {

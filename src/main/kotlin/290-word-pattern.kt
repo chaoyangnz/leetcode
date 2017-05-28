@@ -13,6 +13,11 @@ import org.junit.*
  * 
  * **Examples:**  
  * 
+ *   1. pattern = `"abba"`, str = `"dog cat cat dog"` should return true.
+ *   2. pattern = `"abba"`, str = `"dog cat cat fish"` should return false.
+ *   3. pattern = `"aaaa"`, str = `"dog cat cat dog"` should return false.
+ *   4. pattern = `"abba"`, str = `"dog dog dog dog"` should return false.
+ * 
  * **Notes:**  
  * You may assume `pattern` contains only lowercase letters, and `str` contains
  * lowercase letters separated by a single space.
@@ -20,8 +25,6 @@ import org.junit.*
  * **Credits:**  
  * Special thanks to [@minglotus6](https://leetcode.com/discuss/user/minglotus6)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

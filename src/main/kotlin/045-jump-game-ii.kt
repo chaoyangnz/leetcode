@@ -24,8 +24,6 @@ import org.junit.*
  * **Note:**  
  * You can assume that you can always reach the last index.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun jumpGameIi() {

@@ -11,8 +11,6 @@ b = `"1"`
 
 Return `"100"`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Add Binary](https://leetcode.com/problems/add-binary)

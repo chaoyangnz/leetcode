@@ -12,9 +12,16 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** "sea", "eat"
+ *     **Output:** 2
+ *     **Explanation:** You need one step to make "sea" to "ea" and another step to make "eat" to "ea".
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. The length of given words won't exceed 500.
+ *   2. Characters in given words can only be lower-case letters.
  * 
  * 
  */

@@ -11,9 +11,21 @@ import org.junit.*
  * 
  * **Example:**  
  * 
+ *     ```
+ *     **Input:**
+ *     [
+ *      [ 1, 2, 3 ],
+ *      [ 4, 5, 6 ],
+ *      [ 7, 8, 9 ]
+ *     ]
+ *     **Output:**  [1,2,4,7,5,3,6,8,9]
+ *     **Explanation:**
+ *     ![](https://leetcode.com/static/images/problemset/diagonal_traverse.png)
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. The total number of elements of the given matrix will not exceed 10,000.
  * 
  * 
  */

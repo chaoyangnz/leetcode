@@ -16,8 +16,6 @@ ask during an interview.
 
 For the purpose of this problem, we define empty string as valid palindrome.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)

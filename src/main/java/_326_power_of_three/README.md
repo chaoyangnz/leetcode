@@ -10,8 +10,6 @@ Could you do it without using any loop / recursion?
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Power of Three](https://leetcode.com/problems/power-of-three)

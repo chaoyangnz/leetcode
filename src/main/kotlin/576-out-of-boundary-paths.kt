@@ -15,11 +15,27 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:**m = 2, n = 2, N = 2, i = 0, j = 0
+ *     **Output:** 6
+ *     **Explanation:**
+ *     ![](https://leetcode.com/static/images/problemset/out_of_boundary_paths_1.png)
+ *     ```
+ * 
  * **Example 2:**  
+ * 
+ *     ```
+ *     **Input:**m = 1, n = 3, N = 3, i = 0, j = 1
+ *     **Output:** 12
+ *     **Explanation:**
+ *     ![](https://leetcode.com/static/images/problemset/out_of_boundary_paths_2.png)
+ *     ```
  * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. Once you move the ball out of boundary, you cannot move it back.
+ *   2. The length and height of the grid is in range [1,50].
+ *   3. N is in range [0,50].
  * 
  * 
  */

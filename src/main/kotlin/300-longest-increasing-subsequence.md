@@ -20,8 +20,6 @@ Your algorithm should run in O(_n2_) complexity.
 Special thanks to [@pbrother](https://leetcode.com/discuss/user/pbrother) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)

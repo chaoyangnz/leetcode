@@ -16,8 +16,6 @@ import org.junit.*
  * 
  * Given `{1,2,3,4}`, reorder it to `{1,4,2,3}`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reorderList() {

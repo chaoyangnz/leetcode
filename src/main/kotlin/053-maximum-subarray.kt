@@ -15,11 +15,6 @@ import org.junit.*
  * 
  * click to show more practice.
  * 
- * If you have figured out the O(_n_) solution, try coding another solution using
- * the divide and conquer approach, which is more subtle.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun maximumSubarray() {

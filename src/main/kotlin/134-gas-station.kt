@@ -19,8 +19,6 @@ import org.junit.*
  * **Note:**  
  * The solution is guaranteed to be unique.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun gasStation() {

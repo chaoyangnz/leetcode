@@ -27,8 +27,6 @@ import org.junit.*
  * Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
  * for adding this problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun countOfRangeSum() {

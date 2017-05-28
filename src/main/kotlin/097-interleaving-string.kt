@@ -21,8 +21,6 @@ import org.junit.*
  * 
  * When _s3_ = `"aadbbbaccc"`, return false.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun interleavingString() {

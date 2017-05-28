@@ -10,8 +10,6 @@ import org.junit.*
  * 
  * If it is overflow, return MAX_INT.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun divideTwoIntegers() {

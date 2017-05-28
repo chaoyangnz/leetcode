@@ -15,6 +15,15 @@ import org.junit.*
  * than 0 and is less than 20,000.
  * 
  * **Example:**
+ *     ```
+ *     Given the following 3x6 height map:
+ *     [
+ *       [1,4,3,1,3,2],
+ *       [3,2,1,3,2,4],
+ *       [2,3,3,2,3,1]
+ *     ]
+ *     Return 4.
+ *     ```
  * 
  * ![](https://leetcode.com/static/images/problemset/rainwater_empty.png)
  * 
@@ -25,8 +34,6 @@ import org.junit.*
  * 
  * After the rain, water are trapped between the blocks. The total volume of
  * water trapped is 4.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

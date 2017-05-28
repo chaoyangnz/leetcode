@@ -11,9 +11,25 @@ priority of operations. You should find out how to add parenthesis to get the
 
 **Example:**  
 
+    ```
+    **Input:** [1000,100,10,2]
+    **Output:** "1000/(100/10/2)"
+    **Explanation:**
+    1000/(100/10/2) = 1000/((100/10)/2) = 200
+    However, the bold parenthesis in "1000/(**(**100/10**)**/2)" are redundant,   
+    since they don't influence the operation priority. So you should return "1000/(100/10/2)". 
+    Other cases:
+    1000/(100/10)/2 = 50
+    1000/(100/(10/2)) = 50
+    1000/100/10/2 = 0.5
+    1000/100/(10/2) = 2
+    ```
+
 **Note:**
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+  1. The length of the input array is [1, 10].
+  2. Elements in the given array will be in range [2, 1000].
+  3. There is only one optimal division for each test case.
 
 
 

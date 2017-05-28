@@ -20,8 +20,6 @@ import org.junit.*
  * 
  * Note: The sequence of integers will be represented as a string.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun countAndSay() {

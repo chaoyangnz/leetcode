@@ -14,8 +14,6 @@ import org.junit.*
  * 
  * Could you do this in-place?
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun rotateImage() {

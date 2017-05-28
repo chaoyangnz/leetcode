@@ -10,8 +10,6 @@ Find the minimum element.
 
 You may assume no duplicate exists in the array.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)

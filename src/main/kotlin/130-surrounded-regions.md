@@ -9,9 +9,21 @@ region.
 
 For example,
 
+    ```
+    X X X X
+    X O O X
+    X X O X
+    X O X X
+    ```
+
 After running your function, the board should be:
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    X X X X
+    X X X X
+    X X X X
+    X O X X
+    ```
 
 
 

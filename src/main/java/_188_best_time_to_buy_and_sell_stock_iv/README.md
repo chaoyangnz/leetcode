@@ -15,8 +15,6 @@ sell the stock before you buy again).
 Special thanks to [@Freezen](https://oj.leetcode.com/discuss/user/Freezen) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)

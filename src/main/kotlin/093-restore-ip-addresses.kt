@@ -15,8 +15,6 @@ import org.junit.*
  * 
  * return `["255.255.11.135", "255.255.111.35"]`. (Order does not matter)
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun restoreIpAddresses() {

@@ -6,6 +6,11 @@ exists or not in the array.
 
 Formally the function should:
 
+> Return true if there exists _i, j, k _
+
+such that _arr[i]_ < _arr[j]_ < _arr[k]_ given 0 ≤ _i_ < _j_ < _k_ ≤ _n_-1
+else return false.
+
 Your algorithm should run in O(_n_) time complexity and O(_1_) space
 complexity.
 
@@ -22,8 +27,6 @@ return `false`.
 Special thanks to
 [@DjangoUnchained](https://leetcode.com/discuss/user/DjangoUnchained) for
 adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

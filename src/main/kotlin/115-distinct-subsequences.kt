@@ -20,8 +20,6 @@ import org.junit.*
  * 
  * Return `3`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun distinctSubsequences() {

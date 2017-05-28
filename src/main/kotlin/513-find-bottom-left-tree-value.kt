@@ -10,11 +10,31 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     Input:
+ *         2
+ *        / \
+ *       1   3
+ *     Output:
+ *     1
+ *     ```
+ * 
  * ** Example 2: **  
  * 
- * **Note:** You may assume the tree (i.e., the given root node) is not **NULL**. 
+ *     ```
+ *     Input:
+ *             1
+ *            / \
+ *           2   3
+ *          /   / \
+ *         4   5   6
+ *            /
+ *           7
+ *     Output:
+ *     7
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * **Note:** You may assume the tree (i.e., the given root node) is not **NULL**. 
  * 
  * 
  */

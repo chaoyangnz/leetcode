@@ -13,7 +13,8 @@ import org.junit.*
  * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   * Each element in the result must be unique.
+ *   * The result can be in any order.
  * 
  * 
  */

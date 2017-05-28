@@ -7,8 +7,6 @@ Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`,
 The brackets must close in the correct order, `"()"` and `"()[]{}"` are all
 valid but `"(]"` and `"([)]"` are not.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)

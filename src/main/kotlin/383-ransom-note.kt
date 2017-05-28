@@ -15,7 +15,11 @@ import org.junit.*
  * **Note:**  
  * You may assume that both strings contain only lowercase letters.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     canConstruct("a", "b") -> false
+ *     canConstruct("aa", "ab") -> false
+ *     canConstruct("aa", "aab") -> true
+ *     ```
  * 
  * 
  */

@@ -14,9 +14,15 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
- * **Note:** The length of given array won't exceed 10000. 
+ *     ```
+ *     **Input:** [1,2,1]
+ *     **Output:** [2,-1,2]
+ *     **Explanation:** The first 1's next greater number is 2;   
+ *     The number 2 can't find next greater number;   
+ *     The second 1's next greater number needs to search circularly, which is also 2.
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * **Note:** The length of given array won't exceed 10000. 
  * 
  * 
  */

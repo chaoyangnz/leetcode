@@ -13,8 +13,6 @@ Your function should return length = `5`, with the first five elements of
 _nums_ being `1`, `1`, `2`, `2` and `3`. It doesn't matter what you leave
 beyond the new length.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)

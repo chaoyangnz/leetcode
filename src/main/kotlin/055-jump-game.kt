@@ -20,8 +20,6 @@ import org.junit.*
  * 
  * A = `[3,2,1,0,4]`, return `false`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun jumpGame() {

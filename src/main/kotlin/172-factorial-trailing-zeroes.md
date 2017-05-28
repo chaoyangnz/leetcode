@@ -9,8 +9,6 @@ Given an integer _n_, return the number of trailing zeroes in _n_!.
 Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
 this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)

@@ -16,8 +16,6 @@ import org.junit.*
  * 
  * Return `"100"`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun addBinary() {

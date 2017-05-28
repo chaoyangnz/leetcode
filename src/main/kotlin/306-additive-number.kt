@@ -17,6 +17,16 @@ import org.junit.*
  * `"112358"` is an additive number because the digits can form an additive
  * sequence: `1, 1, 2, 3, 5, 8`.
  * 
+ *     ```
+ *     1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
+ *     ```
+ * 
+ * `"199100199"``1, 99, 100, 199`
+ * 
+ *     ```
+ *     1 + 99 = 100, 99 + 100 = 199
+ *     ```
+ * 
  * **Note:** Numbers in the additive sequence **cannot** have leading zeros, so sequence `1, 2, 03` or `1, 02, 3` is invalid. 
  * 
  * Given a string containing only digits `'0'-'9'`, write a function to determine
@@ -28,8 +38,6 @@ import org.junit.*
  * **Credits:**  
  * Special thanks to [@jeantimex](https://leetcode.com/discuss/user/jeantimex)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

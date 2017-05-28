@@ -15,6 +15,17 @@ import org.junit.*
  * 
  * Given _nums_ = `[1,3,-1,-3,5,3,6,7]`, and _k_ = 3.
  * 
+ *     ```
+ *     Window position                Max
+ *     ---------------               -----
+ *     [1  3  -1] -3  5  3  6  7       3
+ *      1 [3  -1  -3] 5  3  6  7       3
+ *      1  3 [-1  -3  5] 3  6  7       5
+ *      1  3  -1 [-3  5  3] 6  7       5
+ *      1  3  -1  -3 [5  3  6] 7       6
+ *      1  3  -1  -3  5 [3  6  7]      7
+ *     ```
+ * 
  * Therefore, return the max sliding window as `[3,3,5,5,6,7]`.
  * 
  * **Note: **  
@@ -23,8 +34,6 @@ import org.junit.*
  * 
  * **Follow up:**  
  * Could you solve it in linear time?
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

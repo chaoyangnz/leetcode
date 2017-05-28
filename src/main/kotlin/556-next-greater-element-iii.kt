@@ -13,9 +13,17 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** 12
+ *     **Output:** 21
+ *     ```
+ * 
  * **Example 2:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:** 21
+ *     **Output:** -1
+ *     ```
  * 
  * 
  */

@@ -12,8 +12,6 @@ For example, the 32-bit integer ’11' has binary representation
 Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
 this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)

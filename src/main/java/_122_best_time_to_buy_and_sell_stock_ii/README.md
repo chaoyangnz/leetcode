@@ -9,8 +9,6 @@ transactions as you like (ie, buy one and sell one share of the stock multiple
 times). However, you may not engage in multiple transactions at the same time
 (ie, you must sell the stock before you buy again).
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)

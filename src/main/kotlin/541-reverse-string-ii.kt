@@ -8,7 +8,15 @@ import org.junit.*
  * ---
  * **Example:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:** s = "abcdefg", k = 2
+ *     **Output:** "bacdfeg"
+ *     ```
+ * 
+ * **Restrictions:**
+ * 
+ *   1. The string consists of lower English letters only.
+ *   2. Length of the given string and k will in the range [1, 10000]
  * 
  * 
  */

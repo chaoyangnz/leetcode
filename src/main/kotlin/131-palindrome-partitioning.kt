@@ -15,7 +15,12 @@ import org.junit.*
  * 
  * Return
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     [
+ *       ["aa","b"],
+ *       ["a","a","b"]
+ *     ]
+ *     ```
  * 
  * 
  */

@@ -14,8 +14,6 @@ once, otherwise return -1.
 **Note:**  
 The solution is guaranteed to be unique.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Gas Station](https://leetcode.com/problems/gas-station)

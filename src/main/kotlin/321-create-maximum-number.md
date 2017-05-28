@@ -41,8 +41,6 @@ return `[9, 8, 9]`
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Create Maximum Number](https://leetcode.com/problems/create-maximum-number)

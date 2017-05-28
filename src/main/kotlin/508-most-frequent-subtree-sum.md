@@ -10,12 +10,22 @@ the highest frequency in any order.
 **Examples 1**  
 Input:
 
+    ```
+      5
+     /  \
+    2   -3
+    ```
+
 **Examples 2**  
 Input:
 
-**Note:** You may assume the sum of values in any subtree is in the range of 32-bit signed integer. 
+    ```
+      5
+     /  \
+    2   -5
+    ```
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+**Note:** You may assume the sum of values in any subtree is in the range of 32-bit signed integer. 
 
 
 

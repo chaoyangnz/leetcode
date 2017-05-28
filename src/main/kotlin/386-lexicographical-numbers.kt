@@ -13,8 +13,6 @@ import org.junit.*
  * Please optimize your algorithm to use less time and space. The input size may
  * be as large as 5,000,000.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun lexicographicalNumbers() {

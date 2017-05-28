@@ -16,7 +16,18 @@ For example,
 
 There exist two distinct solutions to the 4-queens puzzle:
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    [
+     [".Q..",  // Solution 1
+      "...Q",
+      "Q...",
+      "..Q."],
+     ["..Q.",  // Solution 2
+      "Q...",
+      "...Q",
+      ".Q.."]
+    ]
+    ```
 
 
 

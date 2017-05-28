@@ -14,8 +14,14 @@ arrow once shot keeps travelling up infinitely. The problem is to find the
 minimum number of arrows that must be shot to burst all balloons.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    **Input:**
+    [[10,16], [2,8], [1,6], [7,12]]
+    **Output:**
+    2
+    **Explanation:**
+    One way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] and [1,6]) and another arrow at x = 11 (bursting the other two balloons).
+    ```
 
 
 

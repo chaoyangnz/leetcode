@@ -9,7 +9,11 @@ may not use the _same_ element twice.
 
 **Example:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    Given nums = [2, 7, 11, 15], target = 9,
+    Because nums[**0**] + nums[**1**] = 2 + 7 = 9,
+    return [**0**, **1**].
+    ```
 
 
 

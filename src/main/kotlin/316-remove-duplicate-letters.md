@@ -19,8 +19,6 @@ Return `"acdb"`
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)

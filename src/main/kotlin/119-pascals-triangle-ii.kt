@@ -15,8 +15,6 @@ import org.junit.*
  * **Note:**  
  * Could you optimize your algorithm to use only _O_(_k_) extra space?
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun pascalsTriangleIi() {

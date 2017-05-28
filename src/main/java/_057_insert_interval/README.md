@@ -16,8 +16,6 @@ Given `[1,2],[3,5],[6,7],[8,10],[12,16]`, insert and merge `[4,9]` in as
 
 This is because the new interval `[4,9]` overlaps with `[3,5],[6,7],[8,10]`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Insert Interval](https://leetcode.com/problems/insert-interval)

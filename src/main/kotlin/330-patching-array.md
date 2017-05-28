@@ -37,8 +37,6 @@ Return `0`.
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Patching Array](https://leetcode.com/problems/patching-array)

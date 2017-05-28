@@ -23,8 +23,6 @@ The palindromes are `["dcbaabcd", "abcddcba", "slls", "llssssll"]`
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs)

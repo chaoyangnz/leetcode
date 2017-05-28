@@ -7,10 +7,22 @@ may assume that the maximum length of s is 1000.
 **Example 1:**  
 Input:
 
+    ```
+    "bbbab"
+    ```
+    ```
+    4
+    ```
+
 **Example 2:**  
 Input:
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    "cbbd"
+    ```
+    ```
+    2
+    ```
 
 
 

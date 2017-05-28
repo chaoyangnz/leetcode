@@ -11,11 +11,16 @@ import org.junit.*
  * 
  * For example, given the following matrix:
  * 
+ *     ```
+ *     1 0 1 0 0
+ *     1 0 1 1 1
+ *     1 1 1 1 1
+ *     1 0 0 1 0
+ *     ```
+ * 
  * **Credits:**  
  * Special thanks to [@Freezen](https://oj.leetcode.com/discuss/user/Freezen) for
  * adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

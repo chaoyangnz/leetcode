@@ -15,8 +15,6 @@ import org.junit.*
  * Another example is `")()())"`, where the longest valid parentheses substring
  * is `"()()"`, which has length = 4.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun longestValidParentheses() {

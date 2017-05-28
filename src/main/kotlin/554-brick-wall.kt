@@ -22,9 +22,23 @@ import org.junit.*
  * 
  * **Example:**  
  * 
+ *     ```
+ *     **Input:** 
+ *     [[1,2,2,1],
+ *      [3,1,2],
+ *      [1,3,2],
+ *      [2,4],
+ *      [3,1,2],
+ *      [1,3,1,1]]
+ *     **Output:** 2
+ *     **Explanation:** 
+ *     ![](https://leetcode.com/static/images/problemset/brick_wall.png)
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. The width sum of bricks in different rows are the same and won't exceed INT_MAX.
+ *   2. The number of bricks in each row is in range [1,10,000]. The height of wall is in range [1,10,000]. Total number of bricks of the wall won't exceed 20,000. 
  * 
  * 
  */

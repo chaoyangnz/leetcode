@@ -21,8 +21,6 @@ import org.junit.*
  * 
  * **Note:** _m_ and _n_ will be at most 100.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun uniquePaths() {

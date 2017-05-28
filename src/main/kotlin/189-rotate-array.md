@@ -19,8 +19,6 @@ string-ii/)
 Special thanks to [@Freezen](https://oj.leetcode.com/discuss/user/Freezen) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Rotate Array](https://leetcode.com/problems/rotate-array)

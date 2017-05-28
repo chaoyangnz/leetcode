@@ -17,8 +17,6 @@ by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png)
 
 ...and its solution numbers marked in red.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Sudoku Solver](https://leetcode.com/problems/sudoku-solver)

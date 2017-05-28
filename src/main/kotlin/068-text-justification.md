@@ -22,11 +22,17 @@ For example,
 
 Return the formatted lines as:
 
+    ```
+    [
+       "This    is    an",
+       "example  of text",
+       "justification.  "
+    ]
+    ```
+
 **Note:** Each word is guaranteed not to exceed _L_ in length. 
 
 click to show corner cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

@@ -7,9 +7,10 @@ value.
 You are giving candies to these children subjected to the following
 requirements:
 
-What is the minimum candies you must give?
+  * Each child must have at least one candy.
+  * Children with a higher rating get more candies than their neighbors.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+What is the minimum candies you must give?
 
 
 

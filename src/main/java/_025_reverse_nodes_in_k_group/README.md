@@ -20,8 +20,6 @@ For _k_ = 2, you should return: `2->1->4->3->5`
 
 For _k_ = 3, you should return: `3->2->1->4->5`
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)

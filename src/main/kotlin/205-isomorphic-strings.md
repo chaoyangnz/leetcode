@@ -21,8 +21,6 @@ Given `"paper"`, `"title"`, return true.
 **Note:**  
 You may assume both **_s_** and **_t_** have the same length.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)

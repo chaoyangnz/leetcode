@@ -11,15 +11,40 @@ crosses itself, or not.
 
 **Example 1:**  
 
+    ```
+    Given _x_ = [2, 1, 1, 2],
+    ┌───┐
+    │   │
+    └───┼──>
+        │
+    Return **true** (self crossing)
+    ```
+
 **Example 2:**  
 
+    ```
+    Given _x_ = [1, 2, 3, 4],
+    ┌──────┐
+    │      │
+    │
+    │
+    └────────────>
+    Return **false** (not self crossing)
+    ```
+
 **Example 3:**  
+
+    ```
+    Given _x_ = [1, 1, 1, 1],
+    ┌───┐
+    │   │
+    └───┼>
+    Return **true** (self crossing)
+    ```
 
 **Credits:**  
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

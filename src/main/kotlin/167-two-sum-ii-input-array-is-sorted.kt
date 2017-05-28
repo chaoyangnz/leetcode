@@ -19,8 +19,6 @@ import org.junit.*
  * **Input:** numbers={2, 7, 11, 15}, target=9  
  * **Output:** index1=1, index2=2 
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun twoSumIiInputArrayIsSorted() {

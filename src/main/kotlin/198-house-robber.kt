@@ -22,8 +22,6 @@ import org.junit.*
  * [@ts](https://oj.leetcode.com/discuss/user/ts) for adding additional test
  * cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun houseRobber() {

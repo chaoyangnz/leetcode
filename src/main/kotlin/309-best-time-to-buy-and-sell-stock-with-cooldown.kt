@@ -13,13 +13,20 @@ import org.junit.*
  * transactions as you like (ie, buy one and sell one share of the stock multiple
  * times) with the following restrictions:
  * 
+ *   * You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
+ *   * After you sell your stock, you cannot buy stock on next day. (ie, cooldown 1 day)
+ * 
  * **Example:**  
+ * 
+ *     ```
+ *     prices = [1, 2, 3, 0, 2]
+ *     maxProfit = 3
+ *     transactions = [buy, sell, cooldown, buy, sell]
+ *     ```
  * 
  * **Credits:**  
  * Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

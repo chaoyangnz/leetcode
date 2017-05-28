@@ -6,8 +6,6 @@ left to bottom right which _minimizes_ the sum of all numbers along its path.
 
 **Note:** You can only move either down or right at any point in time.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)

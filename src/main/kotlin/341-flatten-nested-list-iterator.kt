@@ -23,8 +23,6 @@ import org.junit.*
  * By calling _next_ repeatedly until _hasNext_ returns false, the order of
  * elements returned by _next_ should be: `[1,4,6]`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun flattenNestedListIterator() {

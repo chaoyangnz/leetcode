@@ -1,7 +1,7 @@
 
 @file:JvmName("IpoKt")
 
-import org.junit.Test
+import org.junit.*
 
 /**
  * Solution
@@ -24,9 +24,21 @@ import org.junit.Test
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** k=2, W=0, Profits=[1,2,3], Capital=[0,1,1].
+ *     **Output:** 4
+ *     **Explanation:** Since your initial capital is 0, you can only start the project indexed 0.
+ *                  After finishing it you will obtain profit 1 and your capital becomes 1.
+ *                  With capital 1, you can either start the project indexed 1 or the project indexed 2.
+ *                  Since you can choose at most 2 projects, you need to finish the project indexed 2 to get the maximum capital.
+ *                  Therefore, output the final maximized capital, which is 0 + 1 + 3 = 4.
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. You may assume all numbers in the input are non-negative integers.
+ *   2. The length of Profits array and Capital array will not exceed 50,000.
+ *   3. The answer is guaranteed to fit in a 32-bit signed integer.
  * 
  * 
  */

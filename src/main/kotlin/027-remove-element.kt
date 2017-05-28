@@ -21,8 +21,6 @@ import org.junit.*
  * Your function should return length = 2, with the first two elements of _nums_
  * being 2.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun removeElement() {

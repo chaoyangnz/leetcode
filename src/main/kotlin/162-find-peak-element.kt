@@ -21,13 +21,9 @@ import org.junit.*
  * 
  * click to show spoilers.
  * 
- * Your solution should be in logarithmic complexity.
- * 
  * **Credits:**  
  * Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
  * this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

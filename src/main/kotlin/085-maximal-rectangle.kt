@@ -11,7 +11,12 @@ import org.junit.*
  * 
  * For example, given the following matrix:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     1 0 1 0 0
+ *     1 0 1 1 1
+ *     1 1 1 1 1
+ *     1 0 0 1 0
+ *     ```
  * 
  * 
  */

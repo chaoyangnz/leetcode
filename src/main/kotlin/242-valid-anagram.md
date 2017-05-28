@@ -17,8 +17,6 @@ You may assume the string contains only lowercase alphabets.
 What if the inputs contain unicode characters? How would you adapt your
 solution to such case?
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Valid Anagram](https://leetcode.com/problems/valid-anagram)

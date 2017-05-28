@@ -10,8 +10,6 @@ Return `[1,3,3,1]`.
 **Note:**  
 Could you optimize your algorithm to use only _O_(_k_) extra space?
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)

@@ -13,8 +13,6 @@ import org.junit.*
  * 
  * the contiguous subarray `[2,3]` has the largest product = `6`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun maximumProductSubarray() {

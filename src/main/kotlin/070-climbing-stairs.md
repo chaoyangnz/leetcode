@@ -8,8 +8,6 @@ climb to the top?
 
 **Note:** Given _n_ will be a positive integer. 
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs)

@@ -22,13 +22,28 @@ move only rightward or downward in each step.
 For example, given the dungeon below, the initial health of the knight must be
 at least **7** if he follows the optimal path `RIGHT-> RIGHT -> DOWN -> DOWN`.
 
+-2 (K)
+-3
+3
+
+-5
+-10
+1
+
+10
+
+30
+
+-5 (P)
+
 **Notes:**
+
+  * The knight's health has no upper bound.
+  * Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned. 
 
 **Credits:**  
 Special thanks to [@stellari](https://oj.leetcode.com/discuss/user/stellari)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

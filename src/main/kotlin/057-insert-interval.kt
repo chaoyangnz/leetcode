@@ -21,8 +21,6 @@ import org.junit.*
  * 
  * This is because the new interval `[4,9]` overlaps with `[3,5],[6,7],[8,10]`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun insertInterval() {

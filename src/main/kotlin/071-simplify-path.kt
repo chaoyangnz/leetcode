@@ -15,8 +15,6 @@ import org.junit.*
  * 
  * click to show corner cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun simplifyPath() {

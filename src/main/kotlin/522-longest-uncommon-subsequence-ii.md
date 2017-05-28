@@ -17,9 +17,15 @@ exist, return -1.
 
 **Example 1:**  
 
+    ```
+    **Input:** "aba", "cdc", "eae"
+    **Output:** 3
+    ```
+
 **Note:**
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+  1. All the given strings' lengths will not exceed 10.
+  2. The length of the given list will be in the range of [2, 50].
 
 
 

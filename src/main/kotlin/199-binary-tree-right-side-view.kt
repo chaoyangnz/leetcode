@@ -13,13 +13,19 @@ import org.junit.*
  * 
  * Given the following binary tree,
  * 
+ *     ```
+ *        1            <---
+ *      /   \
+ *     2     3         <---
+ *      \     \
+ *       5     4       <---
+ *     ```
+ * 
  * You should return `[1, 3, 4]`.
  * 
  * **Credits:**  
  * Special thanks to [@amrsaqr](https://leetcode.com/discuss/user/amrsaqr) for
  * adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

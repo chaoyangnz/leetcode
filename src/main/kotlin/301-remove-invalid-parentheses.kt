@@ -14,11 +14,15 @@ import org.junit.*
  * 
  * **Examples:**  
  * 
+ *     ```
+ *     "()())()" -> ["()()()", "(())()"]
+ *     "(a)())()" -> ["(a)()()", "(a())()"]
+ *     ")(" -> [""]
+ *     ```
+ * 
  * **Credits:**  
  * Special thanks to [@hpplayer](https://leetcode.com/discuss/user/hpplayer) for
  * adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

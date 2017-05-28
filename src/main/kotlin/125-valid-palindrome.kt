@@ -21,8 +21,6 @@ import org.junit.*
  * 
  * For the purpose of this problem, we define empty string as valid palindrome.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun validPalindrome() {

@@ -10,8 +10,6 @@ Given `1->1->2`, return `1->2`.
 
 Given `1->1->2->3->3`, return `1->2->3`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)

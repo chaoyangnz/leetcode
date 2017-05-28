@@ -13,8 +13,6 @@ import org.junit.*
  * node with value `3`, the linked list should become `1 -> 2 -> 4` after calling
  * your function.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun deleteNodeInALinkedList() {

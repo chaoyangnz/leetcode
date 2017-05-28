@@ -19,8 +19,6 @@ from index 0 to 1, then `3` steps to the last index.)
 **Note:**  
 You can assume that you can always reach the last index.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Jump Game II](https://leetcode.com/problems/jump-game-ii)

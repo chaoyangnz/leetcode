@@ -15,8 +15,6 @@ Your function should return length = `2`, with the first two elements of
 _nums_ being `1` and `2` respectively. It doesn't matter what you leave beyond
 the new length.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)

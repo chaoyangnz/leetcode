@@ -18,8 +18,6 @@ import org.junit.*
  * **Note:**  
  * The vowels does not include the letter "y".
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reverseVowelsOfAString() {

@@ -21,8 +21,6 @@ given prime list `primes` of size `k`. For example, `[1, 2, 4, 7, 8, 13, 14,
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Super Ugly Number](https://leetcode.com/problems/super-ugly-number)

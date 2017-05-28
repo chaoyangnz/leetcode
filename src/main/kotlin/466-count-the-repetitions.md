@@ -15,8 +15,13 @@ S1 and S2, where `S1=[s1,n1]` and `S2=[s2,n2]`. Find the maximum integer M
 such that `[S2,M]` can be obtained from `S1`.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    Input:
+    s1="acb", n1=4
+    s2="ab", n2=2
+    Return:
+    2
+    ```
 
 
 

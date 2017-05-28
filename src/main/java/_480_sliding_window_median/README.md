@@ -19,13 +19,22 @@ For example,
 
 Given _nums_ = `[1,3,-1,-3,5,3,6,7]`, and _k_ = 3.
 
+    ```
+    Window position                Median
+    ---------------               -----
+    [1  3  -1] -3  5  3  6  7       1
+     1 [3  -1  -3] 5  3  6  7       -1
+     1  3 [-1  -3  5] 3  6  7       -1
+     1  3  -1 [-3  5  3] 6  7       3
+     1  3  -1  -3 [5  3  6] 7       5
+     1  3  -1  -3  5 [3  6  7]      6
+    ```
+
 Therefore, return the median sliding window as `[1,-1,-1,3,5,6]`.
 
 **Note: **  
 You may assume _k_ is always valid, ie: 1 ≤ k ≤ input array's size for non-
 empty array.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

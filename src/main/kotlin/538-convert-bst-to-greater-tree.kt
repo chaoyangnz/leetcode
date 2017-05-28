@@ -11,8 +11,16 @@ import org.junit.*
  * greater than the original key in BST.
  * 
  * **Example:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:** The root of a Binary Search Tree like this:
+ *                   5
+ *                 /   \
+ *                2     13
+ *     **Output:** The root of a Greater Tree like this:
+ *                  18
+ *                 /   \
+ *               20     13
+ *     ```
  * 
  * 
  */

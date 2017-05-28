@@ -21,8 +21,6 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii)

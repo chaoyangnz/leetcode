@@ -17,8 +17,6 @@ alerting the police**.
 Special thanks to [@Freezen](https://oj.leetcode.com/discuss/user/Freezen) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [House Robber II](https://leetcode.com/problems/house-robber-ii)

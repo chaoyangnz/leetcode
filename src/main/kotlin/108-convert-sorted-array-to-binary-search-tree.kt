@@ -9,8 +9,6 @@ import org.junit.*
  * Given an array where elements are sorted in ascending order, convert it to a
  * height balanced BST.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun convertSortedArrayToBinarySearchTree() {

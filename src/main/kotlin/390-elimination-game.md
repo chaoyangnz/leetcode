@@ -14,8 +14,16 @@ left, until a single number remains.
 Find the last number that remains starting with a list of length _n_.
 
 **Example:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    Input:
+    n = 9,
+    _1_ 2 _3_ 4 _5_ 6 _7_ 8 _9_
+    2 _4_ 6 _8_
+    _2_ 6
+    6
+    Output:
+    6
+    ```
 
 
 

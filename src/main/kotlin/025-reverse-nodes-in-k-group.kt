@@ -25,8 +25,6 @@ import org.junit.*
  * 
  * For _k_ = 3, you should return: `3->2->1->4->5`
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reverseNodesInKGroup() {

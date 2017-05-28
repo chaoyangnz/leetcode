@@ -15,8 +15,6 @@ import org.junit.*
  * 
  * You may assume no duplicate exists in the array.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun findMinimumInRotatedSortedArray() {

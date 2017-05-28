@@ -12,10 +12,22 @@ import org.junit.*
  * **Example 1:**  
  * Input:
  * 
+ *     ```
+ *     "bbbab"
+ *     ```
+ *     ```
+ *     4
+ *     ```
+ * 
  * **Example 2:**  
  * Input:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     "cbbd"
+ *     ```
+ *     ```
+ *     2
+ *     ```
  * 
  * 
  */

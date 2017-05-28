@@ -13,8 +13,6 @@ length: `4`.
 
 Your algorithm should run in O(_n_) complexity.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)

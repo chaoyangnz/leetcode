@@ -15,8 +15,6 @@ import org.junit.*
  * 
  * return `4->5->1->2->3->NULL`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun rotateList() {

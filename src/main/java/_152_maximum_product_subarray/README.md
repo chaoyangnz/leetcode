@@ -8,8 +8,6 @@ For example, given the array `[2,3,-2,4]`,
 
 the contiguous subarray `[2,3]` has the largest product = `6`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)

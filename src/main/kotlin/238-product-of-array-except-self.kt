@@ -19,8 +19,6 @@ import org.junit.*
  * **does not** count as extra space for the purpose of space complexity
  * analysis.)
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun productOfArrayExceptSelf() {

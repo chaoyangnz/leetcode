@@ -16,13 +16,22 @@ import org.junit.*
  * 
  * Design a data structure that supports the following two operations:
  * 
+ *   * void addNum(int num) - Add a integer number from the data stream to the data structure.
+ *   * double findMedian() - Return the median of all elements so far.
+ * 
  * For example:
+ * 
+ *     ```
+ *     addNum(1)
+ *     addNum(2)
+ *     findMedian() -> 1.5
+ *     addNum(3) 
+ *     findMedian() -> 2
+ *     ```
  * 
  * **Credits:**  
  * Special thanks to [@Louis1992](https://leetcode.com/discuss/user/Louis1992)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

@@ -13,8 +13,6 @@ import org.junit.*
  * 
  * **Note:** Given _n_ will be a positive integer. 
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun climbingStairs() {

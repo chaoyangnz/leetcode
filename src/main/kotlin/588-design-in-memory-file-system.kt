@@ -28,9 +28,21 @@ import org.junit.*
  * 
  * **Example:**  
  * 
+ *     ```
+ *     **Input:** 
+ *     ["FileSystem","ls","mkdir","addContentToFile","ls","readContentFromFile"]
+ *     [[],["/"],["/a/b/c"],["/a/b/c/d","hello"],["/"],["/a/b/c/d"]]
+ *     **Output:**
+ *     [null,[],null,null,["a"],"hello"]
+ *     **Explanation:**
+ *     ![filesystem](https://leetcode.com/static/images/problemset/filesystem.png)
+ *     ```
+ * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. You can assume all file or directory paths are absolute paths which begin with `/` and do not end with `/` except that the path is just `"/"`.
+ *   2. You can assume that all operations will be passed valid parameters and users will not attempt to retrieve file content or list a directory or file that does not exist.
+ *   3. You can assume that all directory names and file names only contain lower-case letters, and same names won't exist in the same directory.
  * 
  * 
  */

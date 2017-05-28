@@ -19,8 +19,6 @@ import org.junit.*
  * 
  * return `[3, 4]`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun searchForARange() {

@@ -16,7 +16,17 @@ import org.junit.*
  * 
  * Given **board** =
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     [
+ *       ['A','B','C','E'],
+ *       ['S','F','C','S'],
+ *       ['A','D','E','E']
+ *     ]
+ *     ```
+ * 
+ * **word**`"ABCCED"``true`  
+ * **word**`"SEE"``true`  
+ * **word**`"ABCB"``false`  
  * 
  * 
  */

@@ -10,9 +10,23 @@ target S.
 
 **Example 1:**  
 
+    ```
+    **Input:** nums is [1, 1, 1, 1, 1], S is 3. 
+    **Output:** 5
+    **Explanation:** 
+    -1+1+1+1+1 = 3
+    +1-1+1+1+1 = 3
+    +1+1-1+1+1 = 3
+    +1+1+1-1+1 = 3
+    +1+1+1+1-1 = 3
+    There are 5 ways to assign symbols to make the sum of nums be target 3.
+    ```
+
 **Note:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+  1. The length of the given array is positive and will not exceed 20. 
+  2. The sum of elements in the given array will not exceed 1000.
+  3. Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 
 

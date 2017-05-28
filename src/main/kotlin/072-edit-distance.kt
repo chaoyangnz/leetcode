@@ -17,8 +17,6 @@ import org.junit.*
  * 
  * c) Replace a character
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun editDistance() {

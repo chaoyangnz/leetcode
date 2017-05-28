@@ -11,7 +11,15 @@ import org.junit.*
  * 
  * For example, given _n_ = 3, a solution set is:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     [
+ *       "((()))",
+ *       "(()())",
+ *       "(())()",
+ *       "()(())",
+ *       "()()()"
+ *     ]
+ *     ```
  * 
  * 
  */

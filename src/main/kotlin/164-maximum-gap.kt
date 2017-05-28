@@ -21,8 +21,6 @@ import org.junit.*
  * [@porker2008](https://oj.leetcode.com/discuss/user/porker2008) for adding this
  * problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun maximumGap() {

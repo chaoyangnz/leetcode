@@ -16,12 +16,13 @@ import org.junit.*
  * 
  * **Note**:  
  * 
+ *   1. The order of the result is not important. So in the above example, `[5, 3]` is also correct.
+ *   2. Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
+ * 
  * **Credits:**  
  * Special thanks to
  * [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianchao.li.fighter)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

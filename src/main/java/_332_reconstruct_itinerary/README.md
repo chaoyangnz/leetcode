@@ -8,6 +8,10 @@ belong to a man who departs from `JFK`. Thus, the itinerary must begin with
 
 **Note:**  
 
+  1. If there are multiple valid itineraries, you should return the itinerary that has the smallest lexical order when read as a single string. For example, the itinerary `["JFK", "LGA"]` has a smaller lexical order than `["JFK", "LGB"]`.
+  2. All airports are represented by three capital letters (IATA code).
+  3. You may assume all tickets form at least one valid itinerary.
+
 **Example 1:**  
 `tickets` = `[["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]`
 
@@ -25,8 +29,6 @@ But it is larger in lexical order.
 **Credits:**  
 Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

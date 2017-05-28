@@ -13,7 +13,13 @@ import org.junit.*
  * 
  * Given _n_ = 3, there are a total of 5 unique BST's.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *        1         3     3      2      1
+ *         \       /     /      / \      \
+ *          3     2     1      1   3      2
+ *         /     /       \                 \
+ *        2     1         2                 3
+ *     ```
  * 
  * 
  */

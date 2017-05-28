@@ -11,8 +11,6 @@ For example, given _s_ = `"aab"`,
 Return `1` since the palindrome partitioning `["aa","b"]` could be produced
 using 1 cut.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)

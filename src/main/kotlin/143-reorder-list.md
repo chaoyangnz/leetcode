@@ -11,8 +11,6 @@ For example,
 
 Given `{1,2,3,4}`, reorder it to `{1,4,2,3}`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Reorder List](https://leetcode.com/problems/reorder-list)

@@ -11,8 +11,6 @@ import org.junit.*
  * **Follow up:**  
  * Could you do it in O(n) time and O(1) space?
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun palindromeLinkedList() {

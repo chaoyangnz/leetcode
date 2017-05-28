@@ -17,6 +17,14 @@ import org.junit.*
  * **$x**. You win the game when you guess the number I picked.
  * 
  * **Example:**
+ *     ```
+ *     n = 10, I pick 8.
+ *     First round:  You guess 5, I tell you that it's higher. You pay $5.
+ *     Second round: You guess 7, I tell you that it's higher. You pay $7.
+ *     Third round:  You guess 9, I tell you that it's lower. You pay $9.
+ *     Game over. 8 is the number I picked.
+ *     You end up paying $5 + $7 + $9 = $21.
+ *     ```
  * 
  * Given a particular **n ≥ 1**, find out how much money you need to have to
  * guarantee a **win**.
@@ -25,8 +33,6 @@ import org.junit.*
  * Special thanks to [@agave](https://leetcode.com/agave/) and
  * [@StefanPochmann](https://leetcode.com/stefanpochmann/) for adding this
  * problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

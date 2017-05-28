@@ -22,8 +22,6 @@ The signature of the `C++` function had been updated. If you still see your
 function signature accepts a `const char *` argument, please click the reload
 button  to reset your code definition.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Valid Number](https://leetcode.com/problems/valid-number)

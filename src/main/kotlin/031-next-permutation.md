@@ -18,8 +18,6 @@ corresponding outputs are in the right-hand column.
 
 `1,1,5` → `1,5,1`
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Next Permutation](https://leetcode.com/problems/next-permutation)

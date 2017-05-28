@@ -15,8 +15,6 @@ import org.junit.*
  * Your algorithm should use only constant space. You may **not** modify the
  * values in the list, only nodes itself can be changed.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun swapNodesInPairs() {

@@ -17,8 +17,6 @@ adding this problem and creating all test cases. Thanks to
 [@Freezen](https://leetcode.com/discuss/user/Freezen) for additional test
 cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome)

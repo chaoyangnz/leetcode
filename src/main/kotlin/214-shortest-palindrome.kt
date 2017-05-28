@@ -22,8 +22,6 @@ import org.junit.*
  * [@Freezen](https://leetcode.com/discuss/user/Freezen) for additional test
  * cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun shortestPalindrome() {

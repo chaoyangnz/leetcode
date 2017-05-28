@@ -19,8 +19,6 @@ import org.junit.*
  * this case, 6 units of rain water (blue section) are being trapped. **Thanks
  * Marcos** for contributing this image!
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun trappingRainWater() {

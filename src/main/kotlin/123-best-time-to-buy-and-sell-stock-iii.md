@@ -11,8 +11,6 @@ transactions.
 You may not engage in multiple transactions at the same time (ie, you must
 sell the stock before you buy again).
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)

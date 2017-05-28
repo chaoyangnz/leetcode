@@ -7,11 +7,23 @@ permutations is the **substring** of the second string.
 
 **Example 1:**  
 
+    ```
+    **Input:**s1 = "ab" s2 = "eidbaooo"
+    **Output:**True
+    **Explanation:** s2 contains one permutation of s1 ("ba").
+    ```
+
 **Example 2:**  
+
+    ```
+    **Input:**s1= "ab" s2 = "eidboaoo"
+    **Output:** False
+    ```
 
 **Note:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+  1. The input strings only contain lower case letters.
+  2. The length of both given strings is in range [1, 10,000].
 
 
 

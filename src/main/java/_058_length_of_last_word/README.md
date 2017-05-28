@@ -14,8 +14,6 @@ Given _s_ = `"Hello World"`,
 
 return `5`.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Length of Last Word](https://leetcode.com/problems/length-of-last-word)

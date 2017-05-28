@@ -15,8 +15,6 @@ import org.junit.*
  * 
  * Given `1->1->2->3->3`, return `1->2->3`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun removeDuplicatesFromSortedList() {

@@ -15,8 +15,6 @@ Given an integer _n_, generate the _n_th sequence.
 
 Note: The sequence of integers will be represented as a string.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Count and Say](https://leetcode.com/problems/count-and-say)

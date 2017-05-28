@@ -18,8 +18,6 @@ import org.junit.*
  * 
  * return `1->2->2->4->3->5`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun partitionList() {

@@ -11,8 +11,6 @@ import org.junit.*
  * **Example:**  
  * Given s = "hello", return "olleh".
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reverseString() {

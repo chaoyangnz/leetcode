@@ -16,8 +16,6 @@ import org.junit.*
  * Special thanks to [@fujiaozhu](https://discuss.leetcode.com/user/fujiaozhu)
  * for adding this problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun sumOfTwoIntegers() {

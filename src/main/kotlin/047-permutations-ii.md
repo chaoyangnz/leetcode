@@ -8,7 +8,13 @@ For example,
 
 `[1,1,2]` have the following unique permutations:
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    [
+      [1,1,2],
+      [1,2,1],
+      [2,1,1]
+    ]
+    ```
 
 
 

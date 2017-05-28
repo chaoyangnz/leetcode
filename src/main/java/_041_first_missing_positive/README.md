@@ -11,8 +11,6 @@ and `[3,4,-1,1]` return `2`.
 
 Your algorithm should run in _O_(_n_) time and uses constant space.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [First Missing Positive](https://leetcode.com/problems/first-missing-positive)

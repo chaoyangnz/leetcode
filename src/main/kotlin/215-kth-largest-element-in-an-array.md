@@ -15,8 +15,6 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) for
 adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)

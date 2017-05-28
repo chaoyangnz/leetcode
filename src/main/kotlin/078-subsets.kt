@@ -14,7 +14,18 @@ import org.junit.*
  * 
  * If **_nums_** = `[1,2,3]`, a solution is:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     [
+ *       [3],
+ *       [1],
+ *       [2],
+ *       [1,2,3],
+ *       [1,3],
+ *       [2,3],
+ *       [1,2],
+ *       []
+ *     ]
+ *     ```
  * 
  * 
  */

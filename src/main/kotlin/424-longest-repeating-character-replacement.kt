@@ -15,10 +15,25 @@ import org.junit.*
  * Both the string's length and _k_ will not exceed 104.
  * 
  * **Example 1:**
+ *     ```
+ *     **Input:**
+ *     s = "ABAB", k = 2
+ *     **Output:**
+ *     4
+ *     **Explanation:**
+ *     Replace the two 'A's with two 'B's or vice versa.
+ *     ```
  * 
  * **Example 2:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:**
+ *     s = "AABABBA", k = 1
+ *     **Output:**
+ *     4
+ *     **Explanation:**
+ *     Replace the one 'A' in the middle with 'B' and form "AABBBBA".
+ *     The substring "BBBB" has the longest repeating letters, which is 4.
+ *     ```
  * 
  * 
  */

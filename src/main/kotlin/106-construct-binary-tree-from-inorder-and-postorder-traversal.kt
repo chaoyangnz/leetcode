@@ -11,8 +11,6 @@ import org.junit.*
  * **Note:**  
  * You may assume that duplicates do not exist in the tree.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun constructBinaryTreeFromInorderAndPostorderTraversal() {

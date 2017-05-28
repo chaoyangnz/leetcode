@@ -17,11 +17,24 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** [1,1,2,2,2]
+ *     **Output:** true
+ *     **Explanation:** You can form a square with length 2, one side of the square came two sticks with length 1.
+ *     ```
+ * 
  * **Example 2:**  
+ * 
+ *     ```
+ *     **Input:** [3,3,3,3,4]
+ *     **Output:** false
+ *     **Explanation:** You cannot find a way to form a square with all the matchsticks.
+ *     ```
  * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. The length sum of the given matchsticks is in the range of `0` to `10^9`. 
+ *   2. The length of the given matchstick array will not exceed `15`.
  * 
  * 
  */

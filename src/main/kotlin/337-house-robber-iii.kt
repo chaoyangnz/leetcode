@@ -17,13 +17,31 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *          3
+ *         / \
+ *        2   3
+ *         \   \ 
+ *          3   1
+ *     ```
+ * 
+ * 331**7**
+ * 
  * **Example 2:**  
+ * 
+ *     ```
+ *          3
+ *         / \
+ *        4   5
+ *       / \   \ 
+ *      1   3   1
+ *     ```
+ * 
+ * 45**9**
  * 
  * **Credits:**  
  * Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

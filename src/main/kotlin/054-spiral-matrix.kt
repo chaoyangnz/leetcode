@@ -13,9 +13,15 @@ import org.junit.*
  * 
  * Given the following matrix:
  * 
- * You should return `[1,2,3,6,9,8,7,4,5]`.
+ *     ```
+ *     [
+ *      [ 1, 2, 3 ],
+ *      [ 4, 5, 6 ],
+ *      [ 7, 8, 9 ]
+ *     ]
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * You should return `[1,2,3,6,9,8,7,4,5]`.
  * 
  * 
  */

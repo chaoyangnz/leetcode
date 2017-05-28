@@ -8,8 +8,6 @@ import org.junit.*
  * ---
  * Sort a linked list using insertion sort.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun insertionSortList() {

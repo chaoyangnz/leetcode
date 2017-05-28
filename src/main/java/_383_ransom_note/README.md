@@ -10,7 +10,11 @@ Each letter in the magazine string can only be used once in your ransom note.
 **Note:**  
 You may assume that both strings contain only lowercase letters.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    canConstruct("a", "b") -> false
+    canConstruct("aa", "ab") -> false
+    canConstruct("aa", "aab") -> true
+    ```
 
 
 

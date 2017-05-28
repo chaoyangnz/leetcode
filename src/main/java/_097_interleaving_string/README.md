@@ -16,8 +16,6 @@ When _s3_ = `"aadbbcbcac"`, return true.
 
 When _s3_ = `"aadbbbaccc"`, return false.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Interleaving String](https://leetcode.com/problems/interleaving-string)

@@ -13,14 +13,25 @@ import org.junit.*
  * A student attendance record is a string that only contains the following three
  * characters:
  * 
+ *   1. **'A'** : Absent. 
+ *   2. **'L'** : Late.
+ *   3. **'P'** : Present. 
+ * 
  * A record is regarded as rewardable if it doesn't contain **more than one 'A'
  * (absent)** or **more than two continuous 'L' (late)**.
  * 
  * **Example 1:**  
  * 
- * **Note:** The value of **n** won't exceed 100,000. 
+ *     ```
+ *     **Input:** n = 2
+ *     **Output:** 8 
+ *     **Explanation:**
+ *     There are 8 records with length 2 will be regarded as rewardable:
+ *     "PP" , "AP", "PA", "LP", "PL", "AL", "LA", "LL"
+ *     Only "AA" won't be regarded as rewardable owing to more than one absent times. 
+ *     ```
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ * **Note:** The value of **n** won't exceed 100,000. 
  * 
  * 
  */

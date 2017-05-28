@@ -20,8 +20,6 @@ import org.junit.*
  * 
  * (order does not matter).
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun substringWithConcatenationOfAllWords() {

@@ -15,8 +15,11 @@ and that digits are only for those repeat numbers, _k_. For example, there
 won't be input like `3a` or `2[4]`.
 
 **Examples:**
-
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    s = "3[a]2[bc]", return "aaabcbc".
+    s = "3[a2[c]]", return "accaccacc".
+    s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
+    ```
 
 
 

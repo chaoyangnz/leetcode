@@ -12,8 +12,6 @@ Calling `next()` will return the next smallest number in the BST.
 Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
 this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)

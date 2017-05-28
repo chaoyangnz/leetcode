@@ -10,10 +10,22 @@ import org.junit.*
  * of rows like this: (you may want to display this pattern in a fixed font for
  * better legibility)
  * 
+ *     ```
+ *     P   A   H   N
+ *     A P L S I I G
+ *     Y   I   R
+ *     ```
+ * 
+ * `"PAHNAPLSIIGYIR"`
+ * 
  * Write the code that will take a string and make this conversion given a number
  * of rows:
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     string convert(string text, int nRows);
+ *     ```
+ * 
+ * `convert("PAYPALISHIRING", 3)``"PAHNAPLSIIGYIR"`
  * 
  * 
  */

@@ -18,12 +18,28 @@ import org.junit.*
  * Find the minimal balls you have to insert to remove all the balls on the
  * table. If you cannot remove all the balls, output -1.
  * 
- * **Examples:**  
- * **Input:** "WRRBBW", "RB" **Output:** -1 **Explanation:** WRRBBW -> WRR[R]BBW -> WBBW -> WBB[B]W -> WW **Input:** "WWRRBBWW", "WRBRW" **Output:** 2 **Explanation:** WWRRBBWW -> WWRR[R]BBWW -> WWBBWW -> WWBB[B]WW -> WWWW -> empty **Input:**"G", "GGGGG" **Output:** 2 **Explanation:** G -> G[G] -> GG[G] -> empty **Input:** "RBYYBBRRB", "YRBGB" **Output:** 3 **Explanation:** RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty 
+ *     ```
+ *     **Examples:**  
+ *     **Input:** "WRRBBW", "RB"
+ *     **Output:** -1
+ *     **Explanation:** WRRBBW -> WRR[R]BBW -> WBBW -> WBB[B]W -> WW
+ *     **Input:** "WWRRBBWW", "WRBRW"
+ *     **Output:** 2
+ *     **Explanation:** WWRRBBWW -> WWRR[R]BBWW -> WWBBWW -> WWBB[B]WW -> WWWW -> empty
+ *     **Input:**"G", "GGGGG"
+ *     **Output:** 2
+ *     **Explanation:** G -> G[G] -> GG[G] -> empty 
+ *     **Input:** "RBYYBBRRB", "YRBGB"
+ *     **Output:** 3
+ *     **Explanation:** RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty 
+ *     ```
  * 
  * **Note:**  
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. You may assume that the initial row of balls on the table won’t have any 3 or more consecutive balls with the same color.
+ *   2. The number of balls on the table won't exceed 20, and the string represents these balls is called "board" in the input.
+ *   3. The number of balls in your hand won't exceed 5, and the string represents these balls is called "hand" in the input.
+ *   4. Both input strings will be non-empty and only contain characters 'R','Y','B','G','W'.
  * 
  * 
  */

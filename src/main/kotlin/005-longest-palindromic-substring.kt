@@ -10,10 +10,17 @@ import org.junit.*
  * assume that the maximum length of **s** is 1000.
  * 
  * **Example:**
+ *     ```
+ *     **Input:** "babad"
+ *     **Output:** "bab"
+ *     **Note:** "aba" is also a valid answer.
+ *     ```
  * 
  * **Example:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     **Input:** "cbbd"
+ *     **Output:** "bb"
+ *     ```
  * 
  * 
  */

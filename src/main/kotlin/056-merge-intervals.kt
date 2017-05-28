@@ -14,8 +14,6 @@ import org.junit.*
  * 
  * return `[1,6],[8,10],[15,18]`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun mergeIntervals() {

@@ -10,8 +10,6 @@ import org.junit.*
  * 
  * Compute and return the square root of _x_.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun sqrtx() {

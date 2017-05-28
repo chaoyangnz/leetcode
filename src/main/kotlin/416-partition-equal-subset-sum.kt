@@ -12,11 +12,22 @@ import org.junit.*
  * 
  * **Note:**  
  * 
+ *   1. Each of the array element will not exceed 100.
+ *   2. The array size will not exceed 200.
+ * 
  * **Example 1:**
+ *     ```
+ *     Input: [1, 5, 11, 5]
+ *     Output: true
+ *     Explanation: The array can be partitioned as [1, 5, 5] and [11].
+ *     ```
  * 
  * **Example 2:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     Input: [1, 2, 3, 5]
+ *     Output: false
+ *     Explanation: The array cannot be partitioned into equal sum subsets.
+ *     ```
  * 
  * 
  */

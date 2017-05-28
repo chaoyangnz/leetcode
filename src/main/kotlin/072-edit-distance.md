@@ -12,8 +12,6 @@ b) Delete a character
 
 c) Replace a character
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Edit Distance](https://leetcode.com/problems/edit-distance)

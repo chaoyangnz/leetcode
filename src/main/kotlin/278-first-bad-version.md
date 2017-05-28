@@ -18,8 +18,6 @@ Special thanks to
 [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianchao.li.fighter)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [First Bad Version](https://leetcode.com/problems/first-bad-version)

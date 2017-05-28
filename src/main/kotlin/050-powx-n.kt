@@ -8,8 +8,6 @@ import org.junit.*
  * ---
  * Implement pow(_x_, _n_).
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun powxN() {

@@ -20,9 +20,25 @@ killed. No order is required for the final answer.
 
 **Example 1:**  
 
+    ```
+    **Input:** 
+    pid =  [1, 3, 10, 5]
+    ppid = [3, 0, 5, 3]
+    kill = 5
+    **Output:** [5,10]
+    **Explanation:** 
+               3
+             /   \
+            1     5
+                 /
+                10
+    Kill 5 will also kill 10.
+    ```
+
 **Note:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+  1. The given kill id is guaranteed to be one of the given PIDs.
+  2. n >= 1.
 
 
 

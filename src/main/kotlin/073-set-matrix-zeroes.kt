@@ -11,16 +11,6 @@ import org.junit.*
  * 
  * click to show follow up.
  * 
- * Did you use extra space?
- * 
- * A straight forward solution using O(_m__n_) space is probably a bad idea.
- * 
- * A simple improvement uses O(_m_ + _n_) space, but still not the best solution.
- * 
- * Could you devise a constant space solution?
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun setMatrixZeroes() {

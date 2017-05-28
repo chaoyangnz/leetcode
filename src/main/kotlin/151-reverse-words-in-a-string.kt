@@ -19,8 +19,6 @@ import org.junit.*
  * 
  * click to show clarification.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun reverseWordsInAString() {

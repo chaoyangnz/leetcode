@@ -10,8 +10,6 @@ For example,
 
 click to show corner cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Simplify Path](https://leetcode.com/problems/simplify-path)

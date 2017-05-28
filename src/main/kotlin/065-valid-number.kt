@@ -27,8 +27,6 @@ import org.junit.*
  * function signature accepts a `const char *` argument, please click the reload
  * button  to reset your code definition.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun validNumber() {

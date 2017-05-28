@@ -13,8 +13,6 @@ Given s = "leetcode", return "leotcede".
 **Note:**  
 The vowels does not include the letter "y".
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)

@@ -20,8 +20,13 @@ import org.junit.*
  * such that `[S2,M]` can be obtained from `S1`.
  * 
  * **Example:**
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *     ```
+ *     Input:
+ *     s1="acb", n1=4
+ *     s2="ab", n2=2
+ *     Return:
+ *     2
+ *     ```
  * 
  * 
  */

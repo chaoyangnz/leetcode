@@ -12,8 +12,6 @@ of 0 ≤ x < 100, excluding `[11,22,33,44,55,66,77,88,99]`)
 Special thanks to [@memoryless](https://discuss.leetcode.com/user/memoryless)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)

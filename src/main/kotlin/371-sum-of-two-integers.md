@@ -11,8 +11,6 @@ Given _a_ = 1 and _b_ = 2, return 3.
 Special thanks to [@fujiaozhu](https://discuss.leetcode.com/user/fujiaozhu)
 for adding this problem and creating all test cases.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)

@@ -16,8 +16,6 @@ import org.junit.*
  * Return 6, because digit 1 occurred in the following numbers: 1, 10, 11, 12,
  * 13.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun numberOfDigitOne() {

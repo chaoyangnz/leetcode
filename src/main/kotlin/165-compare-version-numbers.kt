@@ -22,11 +22,13 @@ import org.junit.*
  * 
  * Here is an example of version numbers ordering:
  * 
+ *     ```
+ *     0.1 < 1.1 < 1.2 < 13.37
+ *     ```
+ * 
  * **Credits:**  
  * Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
  * this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

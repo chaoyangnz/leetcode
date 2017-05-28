@@ -16,8 +16,6 @@ import org.junit.*
  * Return `1` since the palindrome partitioning `["aa","b"]` could be produced
  * using 1 cut.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun palindromePartitioningIi() {

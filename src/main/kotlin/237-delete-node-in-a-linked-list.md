@@ -8,8 +8,6 @@ Supposed the linked list is `1 -> 2 -> 3 -> 4` and you are given the third
 node with value `3`, the linked list should become `1 -> 2 -> 4` after calling
 your function.
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)

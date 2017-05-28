@@ -25,8 +25,6 @@ import org.junit.*
  * 
  * return `10`.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun largestRectangleInHistogram() {

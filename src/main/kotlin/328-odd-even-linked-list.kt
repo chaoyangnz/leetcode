@@ -29,8 +29,6 @@ import org.junit.*
  * [@DjangoUnchained](https://leetcode.com/discuss/user/DjangoUnchained) for
  * adding this problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun oddEvenLinkedList() {

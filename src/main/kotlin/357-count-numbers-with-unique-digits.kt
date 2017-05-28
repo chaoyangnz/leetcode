@@ -17,8 +17,6 @@ import org.junit.*
  * Special thanks to [@memoryless](https://discuss.leetcode.com/user/memoryless)
  * for adding this problem and creating all test cases.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun countNumbersWithUniqueDigits() {

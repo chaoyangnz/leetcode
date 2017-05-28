@@ -12,14 +12,9 @@ import org.junit.*
  * Each rectangle is defined by its bottom left corner and top right corner as
  * shown in the figure.
  * 
- * Assume that the total area is never beyond the maximum possible value of
- * **int**.
- * 
  * **Credits:**  
  * Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) for
  * adding this problem, creating the above image and all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

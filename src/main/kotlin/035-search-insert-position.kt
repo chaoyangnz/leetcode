@@ -22,8 +22,6 @@ import org.junit.*
  * 
  * `[1,3,5,6]`, 0 → 0
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun searchInsertPosition() {

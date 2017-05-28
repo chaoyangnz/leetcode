@@ -11,8 +11,6 @@ import org.junit.*
  * 
  * Return a deep copy of the list.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun copyListWithRandomPointer() {

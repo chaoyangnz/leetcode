@@ -17,8 +17,6 @@ Here are few examples.
 
 `[1,3,5,6]`, 0 → 0
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Search Insert Position](https://leetcode.com/problems/search-insert-position)

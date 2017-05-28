@@ -13,13 +13,22 @@ this string can be deserialized to the original tree structure.
 
 For example, you may serialize the following tree
 
+    ```
+        1
+       / \
+      2   3
+         / \
+        4   5
+    ```
+
+`"[1,2,3,null,null,4,5]"`[how LeetCode OJ serializes a binary
+tree](https://leetcode.com/faq/#binary-tree)
+
 **Note:** Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless. 
 
 **Credits:**  
 Special thanks to [@Louis1992](https://leetcode.com/discuss/user/Louis1992)
 for adding this problem and creating all test cases.
-
-[Subscribe](/subscribe/) to see which companies asked this question.
 
 
 

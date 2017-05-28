@@ -9,8 +9,6 @@ Follow up:
 
 Could you do this in-place?
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Rotate Image](https://leetcode.com/problems/rotate-image)

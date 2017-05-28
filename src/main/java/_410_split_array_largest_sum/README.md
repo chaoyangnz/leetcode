@@ -8,9 +8,21 @@ algorithm to minimize the largest sum among these _m_ subarrays.
 **Note:**  
 If _n_ is the length of array, assume the following constraints are satisfied:
 
-**Examples: **
+  * 1 ≤ _n_ ≤ 1000
+  * 1 ≤ _m_ ≤ min(50, _n_)
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+**Examples: **
+    ```
+    Input:
+    **nums** = [7,2,5,10,8]
+    **m** = 2
+    Output:
+    18
+    Explanation:
+    There are four ways to split **nums** into two subarrays.
+    The best way is to split it into **[7,2,5]** and **[10,8]**,
+    where the largest sum among the two subarrays is only 18.
+    ```
 
 
 

@@ -10,11 +10,27 @@ whether there is a 132 pattern in the list.
 
 **Example 1:**  
 
+    ```
+    **Input:** [1, 2, 3, 4]
+    **Output:** False
+    **Explanation:** There is no 132 pattern in the sequence.
+    ```
+
 **Example 2:**  
+
+    ```
+    **Input:** [3, 1, 4, 2]
+    **Output:** True
+    **Explanation:** There is a 132 pattern in the sequence: [1, 4, 2].
+    ```
 
 **Example 3:**  
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    **Input:** [-1, 3, 2, 0]
+    **Output:** True
+    **Explanation:** There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0] and [-1, 2, 0].
+    ```
 
 
 

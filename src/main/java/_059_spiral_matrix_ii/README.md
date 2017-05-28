@@ -8,7 +8,13 @@ For example,
 
 Given _n_ = `3`,
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    [
+     [ 1, 2, 3 ],
+     [ 8, 9, 4 ],
+     [ 7, 6, 5 ]
+    ]
+    ```
 
 
 

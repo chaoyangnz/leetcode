@@ -16,8 +16,6 @@ tree structure.
 
 **Note:** Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless. 
 
-[Subscribe](/subscribe/) to see which companies asked this question.
-
 
 
 [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst)

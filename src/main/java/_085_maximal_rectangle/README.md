@@ -6,7 +6,12 @@ containing only 1's and return its area.
 
 For example, given the following matrix:
 
-[Subscribe](/subscribe/) to see which companies asked this question.
+    ```
+    1 0 1 0 0
+    1 0 1 1 1
+    1 1 1 1 1
+    1 0 0 1 0
+    ```
 
 
 

@@ -19,8 +19,6 @@ import org.junit.*
  * answer must be a **substring**, `"pwke"` is a _subsequence_ and not a
  * substring.
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
- * 
  * 
  */
 fun longestSubstringWithoutRepeatingCharacters() {

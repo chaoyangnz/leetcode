@@ -26,11 +26,14 @@ import org.junit.*
  * 
  * Return `167`
  * 
+ *     ```
+ *         nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
+ *        coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
+ *     ```
+ * 
  * **Credits:**  
  * Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
  * for adding this problem and creating all test cases.
- * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
  * 
  * 
  */

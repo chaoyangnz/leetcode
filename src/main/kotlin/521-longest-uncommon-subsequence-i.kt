@@ -22,9 +22,18 @@ import org.junit.*
  * 
  * **Example 1:**  
  * 
+ *     ```
+ *     **Input:** "aba", "cdc"
+ *     **Output:** 3
+ *     **Explanation:** The longest uncommon subsequence is "aba" (or "cdc"),   
+ *     because "aba" is a subsequence of "aba",   
+ *     but not a subsequence of any other strings in the group of two strings. 
+ *     ```
+ * 
  * **Note:**
  * 
- * [Subscribe](/subscribe/) to see which companies asked this question.
+ *   1. Both strings' lengths will not exceed 100.
+ *   2. Only letters from a ~ z will appear in input strings. 
  * 
  * 
  */
