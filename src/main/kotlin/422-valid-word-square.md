@@ -1,0 +1,13 @@
+
+# Problem
+
+
+
+
+
+[Valid Word Square](https://leetcode.com/problems/valid-word-square)
+
+# Solution
+
+
+

@@ -1,0 +1,24 @@
+
+# Problem
+
+The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between
+two integers is the number of positions at which the corresponding bits are
+different.
+
+Given two integers `x` and `y`, calculate the Hamming distance.
+
+**Note:**  
+0 ≤ `x`, `y` < 231.
+
+**Example:**
+
+[Subscribe](/subscribe/) to see which companies asked this question.
+
+
+
+[Hamming Distance](https://leetcode.com/problems/hamming-distance)
+
+# Solution
+
+
+
