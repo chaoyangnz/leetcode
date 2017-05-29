@@ -1,7 +1,7 @@
 
 @file:JvmName("PathSumIiiKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -17,20 +17,20 @@ import org.junit.*
  * -1,000,000 to 1,000,000.
  * 
  * **Example:**
- *     ```
+ *
  *     root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8
  *           10
  *          /  \
- *         **5**   **-3**
- *        **/** **\**    **\**
- *       **3**   **2**   **11**
- *      / \   **\**
- *     3  -2   **1**
+ *         5   -3
+ *        / \    \
+ *       3   2   11
+ *      / \       \
+ *     3  -2      1
  *     Return 3. The paths that sum to 8 are:
  *     1.  5 -> 3
  *     2.  5 -> 2 -> 1
  *     3. -3 -> 11
- *     ```
+ *
  * 
  * 
  */
