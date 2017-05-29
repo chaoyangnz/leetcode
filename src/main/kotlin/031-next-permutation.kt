@@ -1,7 +1,7 @@
 
 @file:JvmName("NextPermutationKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -25,8 +25,43 @@ import org.junit.*
  * 
  * 
  */
-fun nextPermutation() {
+fun nextPermutation(nums: IntArray?) {
+    if (nums == null || nums.size <= 1) return
 
+    var i = nums.size - 2
+    var max = nums[nums.size - 1]
+    while (i >= 0) {
+        if (nums[i] >= max) {
+            max = nums[i]
+            --i
+        } else {
+            // need to find the close bigger one to swap from the rightmost
+            // rightmost already descent
+            for (x in nums.size - 1 downTo i + 1) {
+                if (nums[x] > nums[i]) {
+                    // swap
+                    swap(nums, i, x)
+                    break
+                }
+            }
+            break
+        }
+    }
+
+    // reverse rightmost
+    var left = i + 1
+    var right = nums.size - 1
+    while (left < right) {
+        swap(nums, left, right)
+        ++left
+        --right
+    }
+}
+
+private fun swap(nums: IntArray, i: Int, j: Int) {
+    val tmp = nums[i]
+    nums[i] = nums[j]
+    nums[j] = tmp
 }
 
 /**
@@ -34,11 +69,23 @@ fun nextPermutation() {
  */
 class NextPermutationTest {
     @Test fun test1() {
+        val nums = intArrayOf(3,4,5,7,6,2)
 
+        nextPermutation(nums)
+
+        nums.print()
     }
 
     @Test fun test2() {
+        val nums = intArrayOf(7,6,5,4,3,2)
+        nextPermutation(nums)
+        nums.print()
+    }
 
+    @Test fun test3() {
+        val nums = intArrayOf(1,1,5)
+        nextPermutation(nums)
+        nums.print()
     }
 }
 

@@ -1,7 +1,7 @@
 
 @file:JvmName("LongestSubstringWithoutRepeatingCharactersKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -21,8 +21,29 @@ import org.junit.*
  * 
  * 
  */
-fun longestSubstringWithoutRepeatingCharacters() {
+fun lengthOfLongestSubstring(s: String?): Int {
+    if(s == null) return 0
+    if(s.length < 2) return s.length
 
+    var i = 0
+    var j = 1
+
+    val set = mutableSetOf<Char>()
+    var length = 1
+    set.add(s[i])
+    while (j < s.length) {
+        if(s[j] !in set) {
+            set.add(s[j])
+            ++j
+        } else {
+//            println(s.substring(i..j-1))
+            set.remove(s[i])
+            ++i
+        }
+        length = maxOf(length, set.size)
+    }
+
+    return length
 }
 
 /**
@@ -30,11 +51,13 @@ fun longestSubstringWithoutRepeatingCharacters() {
  */
 class LongestSubstringWithoutRepeatingCharactersTest {
     @Test fun test1() {
-
+        val ss = arrayOf(null, "", "x", "ayu", "abcabcbb", "bbbbb", "pwwkew")
+        for (s in ss) println(lengthOfLongestSubstring(s))
     }
 
     @Test fun test2() {
-
+        val s = "au"
+        lengthOfLongestSubstring(s)
     }
 }
 

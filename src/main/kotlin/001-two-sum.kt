@@ -25,6 +25,7 @@ import org.junit.Test
  */
 fun twoSum(nums: IntArray, target: Int): IntArray {
     val map = mutableMapOf<Int, Int>()
+    // O(n)
     for (i in nums.indices) {
         val j = map[target - nums[i]]
         if (j != null) return intArrayOf(j, i)
@@ -32,6 +33,35 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
     }
 
     throw IllegalArgumentException("No solution can be found")
+}
+
+fun twoSumSorted(nums: IntArray, target: Int): IntArray {
+    // O(nlogn)
+    val snums = nums.clone().sorted()
+    val indices = intArrayOf(-1, -1)
+
+    var i = 0
+    var j = nums.size-1
+    // O(n)
+    while (i < j) {
+        val sum = snums[i] + snums[j]
+        when {
+            sum < target -> ++i
+            sum > target -> --j
+            else -> {
+                // found
+                for((x, num) in nums.withIndex()) {
+                    if(num == snums[i]) indices[0] = x
+                    if(num == snums[j]) indices[1] = x
+                    if(indices[0] >= 0 && indices[1] >= 0 ) {
+                        return indices
+                    }
+                }
+            }
+        }
+    }
+
+    return indices
 }
 
 /**
@@ -42,7 +72,7 @@ class TwoSumTest {
         val nums = intArrayOf(2, 7, 11, 15)
 
         val expected = intArrayOf(0, 1)
-        Assert.assertArrayEquals(expected, twoSum(nums, 9))
+        Assert.assertArrayEquals(expected, twoSumSorted(nums, 9))
     }
 
     @Test fun test2() {
