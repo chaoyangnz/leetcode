@@ -24,5 +24,12 @@ corresponding outputs are in the right-hand column.
 
 # Solution
 
+关键是下一个permutation的规律：
+
+`a0, a1, a2, .., an`
+
+右起找到第一个打破递减规律的数，这时，从此数右边递减序列中找到刚刚比此数大的数进行互换。
+然后把右边递减序列反转
 
 
+![](assets/031-next-permutation.png)
