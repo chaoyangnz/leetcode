@@ -1,7 +1,8 @@
 
 @file:JvmName("ArrayNestingKt")
 
-import org.junit.*
+import org.junit.Test
+import java.util.*
 
 /**
  * Solution
@@ -37,8 +38,22 @@ import org.junit.*
  * 
  * 
  */
-fun arrayNesting() {
+fun arrayNesting(nums: IntArray): Int {
+    var max = 1
+    for (i in nums.indices) {
+        if (nums[i] < 0) continue
+        var j = nums[i]
+        var path = 1
+        while (j != i) {
+            val next = nums[j]
+            nums[j] = -nums[j] - 1
+            path++
+            j = next
 
+        }
+        max = Math.max(max, path)
+    }
+    return max
 }
 
 /**
@@ -46,7 +61,18 @@ fun arrayNesting() {
  */
 class ArrayNestingTest {
     @Test fun test1() {
-
+        val nums = IntArray(21)
+        for(i in 0..20) {
+            nums[i] = i
+        }
+        val random = Random()
+        for(i in 20 downTo 1) {
+            val j = random.nextInt(i)
+            var tmp = nums[i]
+            nums[i] = nums[j]
+            nums[j] = tmp
+        }
+        nums.print()
     }
 
     @Test fun test2() {
