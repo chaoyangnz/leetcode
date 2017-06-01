@@ -21,4 +21,10 @@ not use the _same_ element twice.
 # Solution
 
 
+这题很容易想到两个指针。但是如何证明为什么这是正确的？
+
+![](167-two-sum-ii-array-is-sorted.png)
+
+一共有以上三种情况，注意指针是一步步挪动的。按照我们的算法，总有一个会先到达其中一个数。
+
 

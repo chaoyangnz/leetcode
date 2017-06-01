@@ -1,7 +1,7 @@
 
 @file:JvmName("TwoSumIiInputArrayIsSortedKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -21,8 +21,20 @@ import org.junit.*
  * 
  * 
  */
-fun twoSumIiInputArrayIsSorted() {
-
+fun twoSumIiInputArrayIsSorted(numbers: IntArray, target: Int): IntArray {
+    var i = 0
+    var j = numbers.size
+    while (i < j) {
+        val sum = numbers[i] + numbers[j]
+        if (sum == target) {
+            return intArrayOf(i + 1, j + 1)
+        } else if (sum < target) {
+            ++i
+        } else {
+            --j
+        }
+    }
+    throw IllegalArgumentException("Not possible here")
 }
 
 /**
