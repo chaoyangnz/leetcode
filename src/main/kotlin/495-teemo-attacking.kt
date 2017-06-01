@@ -1,7 +1,7 @@
 
 @file:JvmName("TeemoAttackingKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -45,8 +45,16 @@ import org.junit.*
  * 
  * 
  */
-fun teemoAttacking() {
+fun findPoisonedDuration(timeSeries: IntArray?, duration: Int): Int {
+    if (timeSeries == null || timeSeries.size == 0) return 0
 
+    var sum = 0
+    for (i in 1..timeSeries.size - 1) {
+        val distance = timeSeries[i] - timeSeries[i - 1]
+        sum += Math.min(distance, duration)
+    }
+    sum += duration
+    return sum
 }
 
 /**

@@ -1,7 +1,7 @@
 
 @file:JvmName("ProductOfArrayExceptSelfKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -21,8 +21,21 @@ import org.junit.*
  * 
  * 
  */
-fun productOfArrayExceptSelf() {
+fun productExceptSelf(nums: IntArray): IntArray {
+    val output = IntArray(nums.size)
+    output[0] = 1
 
+    var prefixProduct = 1
+    for (i in 1..nums.size - 1) { // compute previous product
+        prefixProduct *= nums[i - 1]
+        output[i] = prefixProduct
+    }
+    var suffixProduct = 1
+    for (i in nums.size - 2 downTo 0) {
+        suffixProduct *= nums[i + 1]
+        output[i] *= suffixProduct
+    }
+    return output
 }
 
 /**
@@ -30,7 +43,8 @@ fun productOfArrayExceptSelf() {
  */
 class ProductOfArrayExceptSelfTest {
     @Test fun test1() {
-
+        val nums = intArrayOf(1,2,3,4)
+        productExceptSelf(nums).print()
     }
 
     @Test fun test2() {
