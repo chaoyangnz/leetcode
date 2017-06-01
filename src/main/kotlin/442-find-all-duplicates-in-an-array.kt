@@ -1,7 +1,12 @@
 
 @file:JvmName("FindAllDuplicatesInAnArrayKt")
 
-import org.junit.*
+import org.junit.Test
+import java.util.*
+
+
+
+
 
 /**
  * Solution
@@ -24,8 +29,32 @@ import org.junit.*
  * 
  * 
  */
-fun findAllDuplicatesInAnArray() {
-
+fun findDuplicates(nums: IntArray?): List<Int>? {
+    if (nums == null) return null
+    val list = ArrayList<Int>()
+    var i = 0
+    while (i < nums.size) {
+        if (nums[i] == -1) {
+            ++i
+            continue
+        }
+        val j = nums[i] - 1
+        if (i == j) {
+            ++i
+            continue
+        }
+        if (nums[i] == nums[j]) {
+            list.add(nums[i])
+            nums[i] = -1 // label as empty
+            ++i
+            continue
+        }
+        //swap
+        nums[i] = nums[i] xor nums[j]
+        nums[j] = nums[j] xor nums[i]
+        nums[i] = nums[i] xor nums[j]
+    }
+    return list
 }
 
 /**
@@ -33,7 +62,8 @@ fun findAllDuplicatesInAnArray() {
  */
 class FindAllDuplicatesInAnArrayTest {
     @Test fun test1() {
-
+        val nums = intArrayOf(4,3,2,7,8,2,3,1)
+        findDuplicates(nums)
     }
 
     @Test fun test2() {

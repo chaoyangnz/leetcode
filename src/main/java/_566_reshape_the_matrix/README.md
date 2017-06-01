@@ -54,5 +54,5 @@ the new reshaped matrix; Otherwise, output the original matrix.
 
 # Solution
 
-
+双层迭代，先得到对应一维数组的下标。由此可以计算出新的二维数组的两个下标
 

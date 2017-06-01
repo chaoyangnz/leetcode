@@ -1,7 +1,7 @@
 
 @file:JvmName("ReshapeTheMatrixKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -55,8 +55,19 @@ import org.junit.*
  * 
  * 
  */
-fun reshapeTheMatrix() {
+fun matrixReshape(nums: Array<IntArray>, r: Int, c: Int): Array<IntArray> {
+    val row = nums.size
+    val col = nums[0].size
+    if (r * c != row * col) return nums
 
+    val rnums = Array(r) { IntArray(c) }
+    for (i in 0..row - 1) {
+        for (j in 0..col - 1) {
+            val index = i * col + j
+            rnums[index / c][index % c] = nums[i][j]
+        }
+    }
+    return rnums
 }
 
 /**

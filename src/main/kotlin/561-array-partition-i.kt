@@ -1,7 +1,10 @@
 
 @file:JvmName("ArrayPartitionIKt")
 
-import org.junit.*
+import org.junit.Test
+import java.util.*
+
+
 
 /**
  * Solution
@@ -25,8 +28,15 @@ import org.junit.*
  * 
  * 
  */
-fun arrayPartitionI() {
-
+fun arrayPairSum(nums: IntArray): Int {
+    Arrays.sort(nums)
+    var sum = 0
+    var i = 0
+    while (i < nums.size) {
+        sum += nums[i]
+        i += 2
+    }
+    return sum
 }
 
 /**
