@@ -23,5 +23,5 @@ Given a binary array, find the maximum number of consecutive 1s in this array.
 
 # Solution
 
-
+注意，当找到一段连续1的时候。步进应该从这个0之后再开始
 

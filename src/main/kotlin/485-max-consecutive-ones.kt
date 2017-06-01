@@ -1,7 +1,7 @@
 
 @file:JvmName("MaxConsecutiveOnesKt")
 
-import org.junit.*
+import org.junit.Test
 
 /**
  * Solution
@@ -24,8 +24,28 @@ import org.junit.*
  * 
  * 
  */
-fun maxConsecutiveOnes() {
+fun findMaxConsecutiveOnes(nums: IntArray?): Int {
+    if (nums == null) return 0
 
+    var i = 0
+    var j = 1
+    var max = 0
+    while (i < nums.size) {
+        if (nums[i] == 0) {
+            ++i
+            continue
+        }
+        while (j < nums.size) {
+            if (nums[j] == 0) {
+                break
+            }
+            ++j
+        }
+        max = Math.max(max, j - i)
+        i = j + 1
+        j = i + 1
+    }
+    return max
 }
 
 /**
@@ -33,7 +53,8 @@ fun maxConsecutiveOnes() {
  */
 class MaxConsecutiveOnesTest {
     @Test fun test1() {
-
+        val nums = intArrayOf(1,1,0,1,1,1)
+        println(findMaxConsecutiveOnes(nums))
     }
 
     @Test fun test2() {
