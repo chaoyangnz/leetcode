@@ -26,8 +26,9 @@ class Solution {
         queue.offer(root);
 
         while(!queue.isEmpty()) {
-            double sum = 0.0;
             int num = queue.size();
+            
+            double sum = 0.0;
             for(int i = 0; i < num; ++i) {
                 TreeNode node = queue.poll();
                 sum += node.val;
