@@ -16,5 +16,7 @@ click to show more practice.
 
 # Solution
 
+这题我开始想用prefixSum数组，后面怎么都不对。
 
+其实用DP应该很好解决。
 
