@@ -30,5 +30,7 @@ for adding this problem and creating all test cases.
 
 # Solution
 
+使用递归，传入根节点和根路径。
+
 
 
