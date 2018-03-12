@@ -92,12 +92,15 @@ fun Int.clearBit(position: Int): Int {
 }
 
 fun main(args: Array<String>) {
-    val a = 13
-    println(a.toBinary())
+//    val a = 13
+//    println(a.toBinary())
+//
+//    val b = a.clearBit(2)
+//    println(b.toBinary())
+//
+//    val c = a.setBit(1)
+//    println(c.toBinary())
+    val a = -1
 
-    val b = a.clearBit(2)
-    println(b.toBinary())
-
-    val c = a.setBit(1)
-    println(c.toBinary())
+    print(Integer.toUnsignedLong(a))
 }
