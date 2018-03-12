@@ -14,4 +14,8 @@ You may assume that duplicates do not exist in the tree.
 
 递归。每次分拆左右树，分别构造，记录子树的preorder, inorder的起始index，及长度。
 
+记住：
+- 根节点总是在pre-order的第一个
+- 根节点将in-order一分为二
+
 ![](https://www.dropbox.com/s/37n2ba4ypp67yul/Screenshot%202018-02-18%2010.45.14.png?raw=1)

@@ -23,10 +23,12 @@ class Solution {
     private TreeNode build(int preStart, int inStart, int length, int[] preorder, int[] inorder, Map<Integer, Integer> indexes) {
         if(length == 0) return null;
 
-        TreeNode root = new TreeNode(preorder[preStart]);
+        // root is the first on in pre-order
+        int val = preorder[preStart];
+        TreeNode root = new TreeNode(val);
         if(length == 1) return root;
 
-        int index = indexes.get(preorder[preStart]);
+        int index = indexes.get(val);
         root.left = build(preStart + 1, inStart, index-inStart, preorder, inorder, indexes);
         root.right = build(preStart + 1 + index - inStart, index+1, (length-1)-(index-inStart), preorder, inorder, indexes);
         return root;
