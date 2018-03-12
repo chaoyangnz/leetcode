@@ -13,10 +13,10 @@ public class Solution {
 
         lookup = new int[nums.length];
         Arrays.fill(lookup, -1);
-        return rob(0, nums);
+        return dp(0, nums);
     }
 
-    private int rob(int i, int[] nums) {
+    private int dp(int i, int[] nums) {
         if(i >= nums.length) {
             return 0;
         }
@@ -24,7 +24,9 @@ public class Solution {
             return nums[i];
         }
 
-        int result = lookup[i] != -1 ? lookup[i] : Math.max(nums[i] + fun(i+2, nums), fun(i+1, nums));
+        int result = lookup[i] != -1 ?
+                lookup[i] :
+                Math.max(nums[i] + dp(i+2, nums), dp(i+1, nums));
         lookup[i] = result;
         return lookup[i];
     }
