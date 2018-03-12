@@ -17,6 +17,6 @@ public class Main {
                 return o1.getValue().compareTo(o2.getValue());
             }
         });
-
+        return 0;
     }
 }
