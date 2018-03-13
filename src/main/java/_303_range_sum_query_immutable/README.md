@@ -24,5 +24,6 @@ _i_ and _j_ (_i_ ≤ _j_), inclusive.
 
 # Solution
 
+Memoization. 构造prefix-sum数组，后面查询可以O(1)。
 
 
