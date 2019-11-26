@@ -1,8 +1,10 @@
 # leetcode exercise
 
-Leetcode solutions with Kotlin and Java
+Leetcode solutions with Kotlin and Java. 
 
-These solutions are from my independent thought.
+(Specially useful for some new graduates or job hunters targeting to tech gaint in Silicon Valley)
+
+These solutions are from my independent thought. __I pay more attention to the thought process and how a solution is derived.__
 
 ## How to know which has a solution
 
