@@ -2,7 +2,7 @@
 
 Leetcode solutions with Kotlin and Java. 
 
-(Specially useful for some new graduates or job hunters targeting to tech gaint in Silicon Valley)
+(Specially useful for some new graduates or job hunters aiming for tech gaint in Silicon Valley)
 
 These solutions are from my independent thought. __I pay more attention to the thought process and how a solution is derived.__
 
